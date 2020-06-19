@@ -5,6 +5,6 @@ It is under construction now...
 
 Testing [link](cal.md).
 
-A ver el [post]({% post_url 2020-06-18-cal %})
+A ver el [post]({% post_url 2020-06-18-cal %}).
 
 [rvalla.github.io](https://rvalla.github.io)
