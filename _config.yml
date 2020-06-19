@@ -1,8 +1,7 @@
 theme: jekyll-theme-minimal
 timezone: America/Argentina/Buenos_Aires
 permalink: /blog/:year/:title/
-title: "Soy Rodrigo"
-description: "A short description of your site's purpose"
-logo: "/images/16_05_0001.jpg"
-show_downloads: "true"
-google_analytics: "Your Google Analytics tracking ID"
+title: Soy Rodrigo
+description: A short description of your site's purpose
+logo: /assets/img/16_05_0001.jpg
+show_downloads: false
