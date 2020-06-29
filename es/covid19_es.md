@@ -13,10 +13,10 @@ Hopkins CSSE](https://github.com/CSSEGISandData/COVID-19).
 
 Acá voy actualizando un resumen de la situación argentina:
 
-![Resumen Argentina](https://github.com/rvalla/COVID-19/blob/master/Argentina_Data/actual_charts/1_Argentina.png)
+![Resumen Argentina](https://github.com/rvalla/COVID-19/raw/master/Argentina_Data/actual_charts/1_Argentina.png)
 
 Acá hago una estimación...
 
-![Estimación](https://github.com/rvalla/COVID-19/blob/master/Argentina_Data/actual_charts/1_E_00_KnownRatioAndEstimation.png)
+![Estimación](https://github.com/rvalla/COVID-19/raw/master/Argentina_Data/actual_charts/1_E_00_KnownRatioAndEstimation.png)
 
 volver a [rvalla.github.io](https://rvalla.github.io)
