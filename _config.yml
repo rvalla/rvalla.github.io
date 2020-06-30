@@ -1,7 +1,9 @@
 theme: jekyll-theme-minimal
 timezone: America/Argentina/Buenos_Aires
 permalink: /blog/:year/:title/
-title: my coding side
-description: A short description of your site's purpose
-logo: /assets/img/profileb-1.jpg
+title: algorithmic Me
+description: >-
+        I do lot of things, here I share my algorithmic side.</br>
+        Hago muchas cosas, aquí comparto mi costado algorítmico.
+logo: /assets/img/profileb-4.jpg
 show_downloads: false
