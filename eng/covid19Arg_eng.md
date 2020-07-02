@@ -18,4 +18,4 @@ Acá hago una estimación...
 
 ![Estimación](https://github.com/rvalla/COVID-19/raw/master/Argentina_Data/actual_charts/1_E_00_KnownRatioAndEstimation.png)
 
-Volver a [rvalla.github.io](https://rvalla.github.io)
+volver a [rvalla.github.io](https://rvalla.github.io)

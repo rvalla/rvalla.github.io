@@ -40,4 +40,4 @@ código. Guardo los que me parecen significativos en la carpeta
 Yo vivo en Buenos Aires, así que sigo sobre todo la evolución del brote en Argentina. Voy actualizando
 periódicamente algunos gráficos y comentarios en esta [página](https://rvalla.github.io/es/covid19Arg_es/).
 
-volver a [rvalla.github.io](https://rvalla.github.io)
+Volver a [rvalla.github.io](https://rvalla.github.io)
