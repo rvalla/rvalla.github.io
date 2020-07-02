@@ -1,15 +1,14 @@
-# Datos de una epidemia
+---
+layout: default
+title:  COVID-19 en Argentina (es)
+---
 
-El repositorio [COVID-19](https://github.com/rvalla/COVID-19) contiene una serie de pequeños programas
-escritos en [Python](https://www.python.org/) para visualizar la evolución de epidemia en las distintas
-partes del mundo.  
-Están hechos para realizar distintos gráficos a partir de los datos de:
-- [2019 Novel Coronavirus COVID-19 (2019-nCoV) Data Repository by Johns
-Hopkins CSSE](https://github.com/CSSEGISandData/COVID-19).
-- [Reportes del Ministerio de Salud de la Nación Argentina](https://www.argentina.gob.ar/coronavirus/informe-diario).
-- [Datasets en datos.gob.ar](https://datos.gob.ar/dataset?q=covid)
+Aquí actualizo periódicamente algunos gráficos y comentarios relacionados con el actual brote del nuevo
+coronavirus *SARS-CoV-2* en la Argentina. En general los actualizo al menos cada 2 días. A veces puedo
+tardar más (cambia el tiempo del que dispongo y el *Ministerio de Salud de la Nación* no siempre publica
+sus [informes diarios](https://www.argentina.gob.ar/coronavirus/informe-diario) con la misma rapidez.)
 
-### El brote en Argentina
+## El brote en Argentina
 
 Acá voy actualizando un resumen de la situación argentina:
 
