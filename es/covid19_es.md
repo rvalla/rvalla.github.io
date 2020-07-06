@@ -36,6 +36,31 @@ programas tienen una lista de variables en las que se puede decidir qué gráfic
 código. Guardo los que me parecen significativos en la carpeta
 [Argentina_Data/actual_charts](https://github.com/rvalla/COVID-19/tree/master/Argentina_Data/actual_charts).
 
+## Las definiciones
+Los gráficos y los archivos *csv* construidos a partir de los datos de la situación del brote en Argentina
+contienen varias categorías. Entender a qué se refiere cada una es fundamental para interpretar los
+datos correctamente. Por eso hay que tener en cuenta las siguientes definiciones:
+- Caso confirmado: representa a una persona infectada detectada por las autoridades sanitarias.
+- Casos confirmados: el número total de casos confirmados hasta el momento.
+- Casos activos: los casos confirmados menos las altas médicas (confirmados - recuperados)
+- Fallecimientos: el número de personas fallecidas a causa de la enfermedad confirmado por las autoridades.
+- Casos/fallecimientos diarios: el número de nuevos casos o fallecimientos registrados en un día. Se obtienen
+restando los casos de dos días sucesivos (c<sub>n+1</sub> - c<sub>n</sub>). También se guardan tendencias
+tomando promedios para 3 y 5 días. 
+- Tasa de mortalidad: la proporción de casos confirmados que fallece (fallecidos / (casos confirmados)).
+- Tiempo de duplicación (lineal): la cantidad de días necesarios para que los casos acumulados se dupliquen
+si los casos diarios se mantuvieran constantes. También se calculan tomando promedios para 3 y 5 días. Es
+importante tener en cuenta que no es la forma más frecuente de calcular el *tiempo de duplicación* (que 
+asume un crecimiento exponencial).
+- Tasa de positividad: la proporción de pruebas de laboratorio que dan un resultado positivo (positivos /
+(pruebas de laboratorio)). Se calcula para las pruebas diarias, tomando promedios para 3 días y de manera
+acumulativa.
+- Estimación a partir de fallecimientos: una estimación de la cantidad de infectados real a partir del número
+de fallecimientos teniendo en cuenta una cierta *tasa de mortalidad real* y el *tiempo promedio* que tarda un
+paciente en morir a partir de la aparición de los síntomas.
+- Tasa de detección: la proporción de los *casos reales estimados* detectados por las autoridades (*casos
+confirmados*).
+
 ## La situación local
 Yo vivo en Buenos Aires, así que sigo sobre todo la evolución del brote en Argentina. Voy actualizando
 periódicamente algunos gráficos y comentarios en esta [página](https://rvalla.github.io/es/covid19Arg_es/).
