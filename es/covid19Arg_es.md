@@ -12,7 +12,11 @@ sus [informes diarios](https://www.argentina.gob.ar/coronavirus/informe-diario) 
 
 Acá voy actualizando un resumen de la situación argentina:
 
-![Resumen Argentina](https://github.com/rvalla/COVID-19/raw/master/Argentina_Data/actual_charts/1_Argentina.png)
+![Resumen Argentina A](https://github.com/rvalla/COVID-19/raw/master/Argentina_Data/actual_charts/1_ArgentinaA.png)
+
+![Resumen Argentina B](https://github.com/rvalla/COVID-19/raw/master/Argentina_Data/actual_charts/1_ArgentinaB.png)
+
+![Resumen Argentina C](https://github.com/rvalla/COVID-19/raw/master/Argentina_Data/actual_charts/1_ArgentinaC.png)
 
 Acá hago una estimación...
 
