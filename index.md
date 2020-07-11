@@ -4,8 +4,8 @@ in a poker deck when a magician does a Faro shuffle.
 It is possible that some of the projects I am working on are useful for you. Maybe they can help you to solve a
 problem you have (such as deciding if a chord can be played on a violin) or to teach cryptography in a class.
 However, It is more likely that they only serve to make you hesitate and learn. That is what happens to me.  
-You can know more about who I am [here](https://rvalla.github.io/eng/aboutme/) or reach me by
-[email](mailto:rodrigovalla@protonmail.ch) (I am on [telegram](https://t.me/rvalla) and
+You can know more about who I am [here](https://rvalla.github.io/eng/aboutme_eng/) or reach me by
+[mail](mailto:rodrigovalla@protonmail.ch) (I am on [telegram](https://t.me/rvalla) and
 <a rel="me" href="https://fosstodon.org/@rvalla">mastodon</a> too).
 
 ## COVID-19

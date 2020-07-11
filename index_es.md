@@ -5,6 +5,9 @@ Es posible que algunos de los proyectos en los que trabajo te sirvan para algo. 
 algún problema que tengas que resolver (como decidir si un acorde se puede o no se puede tocar en un violín)
 o para enseñar criptografía... Aunque lo más probable es que sólo sirvan para que dudes, te hagas preguntas y
 aprendas. Eso es lo que me pasa a mí.
+Si querés saber quién soy podés leer [acá](https://rvalla.github.io/es/aboutme_es/). También podés contactarme
+por [mail](mailto:rodrigovalla@protonmail.ch) o encontrarme en [telegram](https://t.me/rvalla) y
+<a rel="me" href="https://fosstodon.org/@rvalla">mastodon</a>.
 
 ## COVID-19
 El año 2020 vuelve a poner en evidencia la fragilidad de la vida humana y su organización social. Pero lo
