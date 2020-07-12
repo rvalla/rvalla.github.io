@@ -1,3 +1,8 @@
+---
+layout: default
+title:  algorithmic Me
+---
+
 In this site I share my algorithmic side. I don't make a living writing code but I know how to do it.
 Programming gives me the chance to implement from musical analysis tools to a software to track a card position
 in a poker deck when a magician does a Faro shuffle.

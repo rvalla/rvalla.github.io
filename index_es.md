@@ -1,3 +1,8 @@
+---
+layout: default
+title:  algorithmic Me
+---
+
 En este sitio comparto el resultado de mi costado algorítmico. No vivo de escribir código, pero sé hacerlo.
 Y programar me da la posibilidad de implementar desde herramientas de análisis musical hasta programas para
 perseguir una carta dentro de una baraja de poker cuando un mago recurre a la mezcla faro.  
