@@ -1,6 +1,7 @@
 theme: jekyll-theme-minimal
 timezone: America/Argentina/Buenos_Aires
 permalink: /blog/:year/:title/
+email: rodrigovalla@protonmail.ch
 title: algorithmic Me
 description: >-
         I do lot of things, here I share my algorithmic side (<a href="https://rvalla.github.io/index">eng</a>). -
