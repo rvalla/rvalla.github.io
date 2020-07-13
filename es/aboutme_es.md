@@ -3,20 +3,17 @@ layout: default
 title:  Sobre mí
 ---
 
+![Mis costados](https://rvalla.github.io/assets/img/aboutme.jpg)
+
 Me entreno permanentemente para ser creativo. Y como la creatividad no distingue campos disciplinares, lo
 hago haciendo de todo. Estudio música y matemática. Escribo hace muchos años. Amaso mi propio pan
-todas las semanas.
-
-
-Las computadoras son parte de mi entrenamiento. Programo para hacerme preguntas y también para producir
+todas las semanas. Las computadoras son parte de mi entrenamiento. Programo para hacerme preguntas y también para producir
 herramientas que me ayuden con lo que hago. También las uso para editar mis fotos o para escribir.
 
 
 La paciencia que se requiere para encontrar el error que evita que un programa termine es la misma que 
-necesito para esperar a que la luz sea la adecuada para una foto o que el pan fermente.
-
-
-Y la capacidad de ver con una mirada original el problema que intento resolver es la misma que uso para
+necesito para esperar a que la luz sea la adecuada para una foto o que el pan fermente. Y la capacidad
+de ver con una mirada original el problema que intento resolver es la misma que uso para
 imaginar la foto que busco, o me permite escribir una obra musical que es un juego al mismo tiempo,
 o concebir un personaje alocado para un cuento.  
 
