@@ -21,8 +21,8 @@ o concebir un personaje alocado para un cuento.
 Nací en Buenos Aires en 1986 y viví en Argentina desde entonces. En 1996 me sumé a la
 [Escuela Argentina de Inventores](https://escueladeinventores.blogspot.com/). Estudié dirección de orquesta
 en la [Universidad Nacional de las Artes](https://una.edu.ar/), también estudié un poco de matemática. Pero
-estoy aprendiendo cosas nuevas todos los días, así que mi paso por la escuela y la universidad no es de una
-idea precisa de quién soy.
+estoy aprendiendo cosas nuevas todos los días, así que mi paso por la escuela y la universidad quizás no dé
+una idea precisa de quién soy.
 
 
 ## Mis otros costados
