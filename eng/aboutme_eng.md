@@ -3,19 +3,41 @@ layout: default
 title:  About me
 ---
 
-Aquí actualizo periódicamente algunos gráficos y comentarios relacionados con el actual brote del nuevo
-coronavirus *SARS-CoV-2* en la Argentina. En general los actualizo al menos cada 2 días. A veces puedo
-tardar más (cambia el tiempo del que dispongo y el *Ministerio de Salud de la Nación* no siempre publica
-sus [informes diarios](https://www.argentina.gob.ar/coronavirus/informe-diario) con la misma rapidez.)
+![Mis costados](https://rvalla.github.io/assets/img/aboutme.jpg)
 
-## El brote en Argentina
+Me entreno permanentemente para ser creativo. Y como la creatividad no distingue campos disciplinares, lo
+hago haciendo de todo. Estudio música y matemática. Escribo hace muchos años. Amaso mi propio pan
+todas las semanas. Las computadoras son parte de mi entrenamiento. Programo para hacerme preguntas y también para producir
+herramientas que me ayuden con lo que hago. También las uso para editar mis fotos o para escribir.
 
-Acá voy actualizando un resumen de la situación argentina:
 
-![Resumen Argentina](https://github.com/rvalla/COVID-19/raw/master/Argentina_Data/actual_charts/1_Argentina.png)
+La paciencia que se requiere para encontrar el error que evita que un programa termine es la misma que 
+necesito para esperar a que la luz sea la adecuada para una foto o que el pan fermente. Y la capacidad
+de ver con una mirada original el problema que intento resolver es la misma que uso para
+imaginar la foto que busco, o me permite escribir una obra musical que es un juego al mismo tiempo,
+o concebir un personaje alocado para un cuento.  
 
-Acá hago una estimación...
 
-![Estimación](https://github.com/rvalla/COVID-19/raw/master/Argentina_Data/actual_charts/1_E_00_KnownRatioAndEstimation.png)
+Nací en Buenos Aires en 1986 y viví en Argentina desde entonces. En 1996 me sumé a la
+[Escuela Argentina de Inventores](https://escueladeinventores.blogspot.com/). Estudié dirección de orquesta
+en la [Universidad Nacional de las Artes](https://una.edu.ar/), también estudié un poco de matemática. Pero
+estoy aprendiendo cosas nuevas todos los días, así que mi paso por la escuela y la universidad no es de una
+idea precisa de quién soy.
+
+
+## Mis otros costados
+
+Este sitio reúne los resultados de las horas que paso escribiendo código. Quizás te interesen más otros
+campos. Por eso te invito a escapar de mi *costado algorítmico* e ir en busca de mis otros costados:
+
+- Si te interesa la fotografía podés ver mi trabajo [acá](https://rodrigovalla.com).
+- Si te interesa la música estocástica podés escuchar mis [juegos musicales](https://vimeo.com/showcase/4825357).
+- Si te gusta la literatura te invito a visitar [Percepciones de la ignorancia](https://pdelaignorancia.com).
+
+## Contactame
+
+Si tenés comentarios sobre alguno de los proyectos que comparto acá, tenés problemas para entenderlos o no
+lográs hacerlos funcionar podés contactarme por [mail](mailto:rodrigovalla@protonmail.ch) o buscarme en
+[telegram](https://t.me/rvalla) o [mastodon](https://fosstodon.org/@rvalla).
 
 volver a [rvalla.github.io](https://rvalla.github.io)

@@ -8,3 +8,9 @@ description: >-
         Hago muchas cosas, aquí comparto mi costado algorítmico (<a href="https://rvalla.github.io/index_es">es</a>).
 logo: /assets/img/profileb-4.jpg
 show_downloads: false
+
+plugins:
+  - jekyll-feed
+title: algorithmic Me: blog
+description: The blog of my algorithmic side. - El blog de mi costado algorítmico.
+author: Rodrigo Valla
