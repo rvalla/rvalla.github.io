@@ -8,7 +8,7 @@ layout: none
 		<description>I do lot of things, here I share my algorithmic side (<a href="https://rvalla.github.io/index">eng</a>).</description>
 		<link>{{ site.url }}</link>
 		<atom:link href="{{ site.url }}/feed_eng.xml" rel="self" type="application/rss+xml" />
-		{% for post in site.categories.english limit:10 %}
+		{% for post in site.categories.eng limit:10 %}
 			<item>
 				<title>{{ post.title | xml_escape }}</title>
 				<description>{{ post.content | xml_escape }}</description>
