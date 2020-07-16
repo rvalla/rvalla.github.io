@@ -11,6 +11,6 @@ show_downloads: false
 
 plugins:
   - jekyll-feed
-title: algorithmic Me: blog
+title: algorithmic Blog
 description: The blog of my algorithmic side. - El blog de mi costado algorítmico.
 author: Rodrigo Valla
