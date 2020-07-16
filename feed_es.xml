@@ -4,7 +4,7 @@ layout: none
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>algorithmic Blog</title>
+		<title>algorithmic Blog (es)</title>
 		<description>Hago muchas cosas, aquí comparto mi costado algorítmico (<a href="https://rvalla.github.io/index_es">rvalla.github.io</a>).</description>
 		<link>{{ site.url }}</link>
 		<atom:link href="{{ site.url }}/feed_es.xml" rel="self" type="application/rss+xml" />
