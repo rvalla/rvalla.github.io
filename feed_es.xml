@@ -13,7 +13,7 @@ layout: none
 				{% if tag == "spanish" %}
 					<item>
 						<title>{{ post.title | xml_escape }}</title>
-						<description>{{ post.excpert | xml_escape }}</description>
+						<description>{{ post.excerpt | xml_escape }}</description>
 						<pubDate>{{ post.date | date: "%a, %d %b }}</pubDate>
 						<link>{{ site.url }}{{ post.url }}</link>
 						<content type="html">{{ post.content | xml_escape }}</content>
