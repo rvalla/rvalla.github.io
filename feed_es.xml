@@ -14,10 +14,8 @@ layout: none
 					<item>
 						<title>{{ post.title | xml_escape }}</title>
 						<description>{{ post.excerpt | xml_escape }}</description>
-						<pubDate>{{ post.date | date_to_string }}</pubDate>
+						<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
 						<link>{{ site.url }}{{ post.url }}</link>
-						<content type="html">{{ post.content | xml_escape }}</content>
-						<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
 					</item>
 				{% endif %}
 			{% endfor %}
