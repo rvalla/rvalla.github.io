@@ -1,6 +1,6 @@
 theme: jekyll-theme-minimal
 timezone: America/Argentina/Buenos_Aires
-permalink: /blog/:categories/:year/:title/
+permalink: /blog/:year/:title/
 email: rodrigovalla@protonmail.ch
 title: algorithmic Me
 author: Rodrigo Valla
