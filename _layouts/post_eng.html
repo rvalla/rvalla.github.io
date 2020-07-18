@@ -1,12 +1,12 @@
 ---
 layout: default
 ---
-{{ page.date | date_to_string }}
-<h1 style="margin-bottom:0.2em">{{ page.title }}</h1>
-
+<p style="margin-bottom:0.2em">{{ page.date | date_to_string }}</p>
 <hr class="red" />
-<hr class="blue" />
 <hr class="yellow" />
+<h1 style="margin-bottom:0.2em">{{ page.title }}</h1>
+<hr class="blue" />
+
 
 
 {{ content }}
@@ -31,14 +31,14 @@ hr.yellow {
 	margin: 0.2em;
 	height:3px;
 	border-width:0;
-	background-color:#9592df;
+	background-color:#fffd94;
 	width:100%;
 }
 hr.blue {
 	margin: 0.2em;
 	height:3px;
 	border-width:0;
-	background-color:#fffd94;
+	background-color:#9592df;
 	width:100%;
 }
 </style>
