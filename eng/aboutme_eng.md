@@ -33,10 +33,6 @@ you can go to my [flickr profile](https://www.flickr.com/photos/pdelaignorancia/
 - If you like stochastic music you can listen to my [musical games](https://vimeo.com/showcase/4825357).
 - If you can read in spanish and like literature you can visit [Percepciones de la ignorancia](https://pdelaignorancia.com).
 
-<hr class="red" />
-<hr class="yellow" />
-<hr class="blue" />
-
 ## Contact me
 
 If you want to contact me feel free to do it by [mail](mailto:rodrigovalla@protonmail.ch). You can look for
