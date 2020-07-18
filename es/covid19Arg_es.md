@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page_es
 title:  COVID-19 en Argentina (es)
 ---
 
@@ -41,5 +41,3 @@ real* del 1% y el tiempo promedio que pasa entre la aparición de los síntomas 
 que en Argentina la proporción de casos detectados viene mejorando a partir de mediados de mayo.
 
 ![Estimación](https://github.com/rvalla/COVID-19/raw/master/Argentina_Data/actual_charts/1_E_00_KnownRatioAndEstimation.png)
-
-Volver a [rvalla.github.io](https://rvalla.github.io)

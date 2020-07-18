@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page_es
 title:  COVID-19 (es)
 ---
 
@@ -64,5 +64,3 @@ confirmados*).
 ## La situación local
 Yo vivo en Buenos Aires, así que sigo sobre todo la evolución del brote en Argentina. Voy actualizando
 periódicamente algunos gráficos y comentarios en esta [página](https://rvalla.github.io/es/covid19Arg_es/).
-
-Volver a [rvalla.github.io](https://rvalla.github.io)

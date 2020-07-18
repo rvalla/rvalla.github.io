@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page_es
 title:  Sobre mí
 ---
 
@@ -39,5 +39,3 @@ campos. Por eso te invito a escapar de mi *costado algorítmico* e ir en busca d
 Si tenés comentarios sobre alguno de los proyectos que comparto acá, tenés problemas para entenderlos o no
 lográs hacerlos funcionar podés contactarme por [mail](mailto:rodrigovalla@protonmail.ch) o buscarme en
 [telegram](https://t.me/rvalla) o [mastodon](https://fosstodon.org/@rvalla).
-
-volver a [rvalla.github.io](https://rvalla.github.io)

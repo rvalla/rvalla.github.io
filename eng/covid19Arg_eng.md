@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page_eng
 title:  COVID-19 en Argentina (es)
 ---
 

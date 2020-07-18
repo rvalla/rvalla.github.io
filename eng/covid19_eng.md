@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page_eng
 title:  COVID-19 (es)
 ---
 
@@ -31,5 +31,3 @@ You can obtain different charts to visualize the data. You can plot the data by 
 certain condition is fulfilled (selected number of confirmed cases or deahts). You can control which charts
 to show/save with a set of booblean varialbles you will find in the code. I save some of them in
 [Argentina_Data/actual_charts](https://github.com/rvalla/COVID-19/tree/master/Argentina_Data/actual_charts).
-
-Back to [rvalla.github.io](https://rvalla.github.io)
