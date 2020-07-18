@@ -40,3 +40,43 @@ If you want to contact me feel free to do it by [mail](mailto:rodrigovalla@proto
 me on [telegram](https://t.me/rvalla) or [mastodon](https://fosstodon.org/@rvalla).
 
 Back to [rvalla.github.io](https://rvalla.github.io)
+
+<p></p>
+<hr class="red" />
+<hr class="blue" />
+<hr class="yellow" />
+<p></p>
+
+<p>You can add rss feed to your reader app.</p>
+
+<style>
+h1.blog{
+	color:#393939;
+	margin-bottom:0.2em;
+}
+p.date{
+	color:#393939;
+	margin-bottom:0.2em;
+}
+hr.red {
+	margin: 0.2em;
+	height:3px;
+	border-width:0;
+	background-color:#e89494;
+	width:100%;
+}
+hr.yellow {
+	margin: 0.2em;
+	height:3px;
+	border-width:0;
+	background-color:#fffd94;
+	width:100%;
+}
+hr.blue {
+	margin: 0.2em;
+	height:3px;
+	border-width:0;
+	background-color:#9592df;
+	width:100%;
+}
+</style>
