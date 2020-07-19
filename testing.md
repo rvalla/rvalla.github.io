@@ -48,7 +48,7 @@ img.red {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 50%;
+	width: 90%;
 	border: 3px solid #e89494;
   	border-radius: 4px;
  	padding: 5px;
