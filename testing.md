@@ -41,16 +41,3 @@ asdf ñkjs añljks asñfjañlkj aposifj akfñqlkewjfñ kaj spoij fqjwñkfjqñlwk
 ñaljkfñakjsf pqiwjpfoqjwfñkljsañlfj psd foqjwñflk ñkasjfp iakfjqñljef 
 asdf ñkjs añljks asñfjañlkj aposifj akfñqlkewjfñ kaj spoij fqjwñkfjqñlwkf ñasdiojfpaisjfñ qkwñfl kjñskdf ñaof
 ñaljkfñakjsf pqiwjpfoqjwfñkljsañlfj psd foqjwñflk ñkasjfp iakfjqñljef 
-
-
-<style>
-img.red {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 90%;
-	border: 3px solid #e89494;
-  	border-radius: 4px;
- 	padding: 5px;
-}
-</style>
