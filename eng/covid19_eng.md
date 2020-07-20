@@ -31,3 +31,22 @@ You can obtain different charts to visualize the data. You can plot the data by 
 certain condition is fulfilled (selected number of confirmed cases or deahts). You can control which charts
 to show/save with a set of booblean varialbles you will find in the code. I save some of them in
 [Argentina_Data/actual_charts](https://github.com/rvalla/COVID-19/tree/master/Argentina_Data/actual_charts).
+
+## The definitions
+The *csv* files and the charts made to show the data for the outbreak evolution in Argentina contains certain
+categories. Understand each one clearly is important to get the facts right. Take into account these definitions:
+- Confirmed case: represents an infected person who was detected by the authorities.
+- Confirmed cases: total number of confirmed cases.
+- Active cases: confirmed cases minus recovered cases.
+- Deaths: number of confirmed cases ended with patient's death.
+- New daily cases: the number of new cases or deaths registered each day. They are obtain subtracting total
+cases from two consecutive days (c<sub>n+1</sub> - c<sub>n</sub>). New cases trends are saved, taking
+averages for 3 and 7 days.
+- Death rate: proportion of confirmed cases which ends in patient's death (deaths / confirmed cases).
+- Linear duplication time: the number of days needed to cumulative cases to double ir new daily cases remain
+constant. Duplication time trends are save, taking averages for 3 and 7 days.
+- Positive ratio: the proportion or laboratory test with a positive result (positives / laboratory tests).
+Is calculated taking daily tests 3 days average and total cumulative tests.
+- Estimation of real cases: an estimation of real infected population from total deaths, taking a certain
+*real mortality ratio* and the *average time* between symptoms onset and death.
+- Known cases ratio: the proportion of real cases which were confirmed (confirmed cases / estimation).

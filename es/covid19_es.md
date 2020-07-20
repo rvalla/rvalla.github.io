@@ -46,7 +46,7 @@ datos correctamente. Por eso hay que tener en cuenta las siguientes definiciones
 - Fallecimientos: el número de personas fallecidas a causa de la enfermedad confirmado por las autoridades.
 - Casos/fallecimientos diarios: el número de nuevos casos o fallecimientos registrados en un día. Se obtienen
 restando los casos de dos días sucesivos (c<sub>n+1</sub> - c<sub>n</sub>). También se guardan tendencias
-tomando promedios para 3 y 5 días. 
+tomando promedios para 3 y 7 días. 
 - Tasa de mortalidad: la proporción de casos confirmados que fallece (fallecidos / (casos confirmados)).
 - Tiempo de duplicación (lineal): la cantidad de días necesarios para que los casos acumulados se dupliquen
 si los casos diarios se mantuvieran constantes. También se calculan tomando promedios para 3 y 5 días. Es
