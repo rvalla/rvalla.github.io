@@ -3,7 +3,7 @@ layout: page_eng
 title:  About me
 ---
 
-![Mi sides](https://rvalla.github.io/assets/img/aboutme.jpg)
+<img class="gray" src="https://rvalla.github.io/assets/img/aboutme.jpg" />
 
 I train myself to be creative all the time. And as creativity does not distinguish among disciplines, I do it
 doing a lot of things. I study music and math. I have written for years. I bake my own bread every week.

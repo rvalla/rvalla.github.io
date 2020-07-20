@@ -3,7 +3,7 @@ layout: page_es
 title:  Sobre mí
 ---
 
-![Mis costados](https://rvalla.github.io/assets/img/aboutme.jpg)
+<img class="gray" src="https://rvalla.github.io/assets/img/aboutme.jpg" />
 
 Me entreno permanentemente para ser creativo. Y como la creatividad no distingue campos disciplinares, lo
 hago haciendo de todo. Estudio música y matemática. Escribo hace muchos años. Amaso mi propio pan

@@ -18,7 +18,7 @@ Mirando la evolución de *casos confirmados* podemos ver que la epidemia se comp
 principios de mayo (aunque si miramos atentamente la evolución de los fallecimientos esto no es necesariamente
 cierto). Y volvió a acelerarse a partir de junio.
 
-![Resumen Argentina A](https://github.com/rvalla/COVID-19/raw/master/Argentina_Data/actual_charts/1_ArgentinaA.png)
+<img class="red" src="https://github.com/rvalla/COVID-19/raw/master/Argentina_Data/actual_charts/1_ArgentinaA.png" />
 
 Si miramos con atención los *fallecimientos diarios* tomando promedios para 5 días podemos ver que, en realidad,
 no se mantuvieron constantes sino que fueron creciendo muy lentamente desde fines de marzo. Se observa
@@ -27,17 +27,17 @@ La *tasa de mortalidad* empieza a bajar a partir de ese momento, aunque lo más 
 a la mejora de la *tasa de detección* y no a un debilitamiento del virus o a la aplicación de un tratamiento
 efectivo.
 
-![Resumen Argentina B](https://github.com/rvalla/COVID-19/raw/master/Argentina_Data/actual_charts/1_ArgentinaB.png)
+<img class="yellow" src="https://github.com/rvalla/COVID-19/raw/master/Argentina_Data/actual_charts/1_ArgentinaB.png" />
 
 Aún cuando la *tasa de mortalidad* baja, la *tasa de positividad* sube. Y desde mediados de mayo está por encima
 del 10%. Incluso el valor acumulado está por encima del 10% a partir de la primer semana de junio.  
 Los *tiempos de duplicación* también se mantuvieron *más o menos* estables a partir de junio (lo que indica un
 crecimiento exponencial de los casos).
 
-![Resumen Argentina C](https://github.com/rvalla/COVID-19/raw/master/Argentina_Data/actual_charts/1_ArgentinaC.png)
+<img class="blue" src="https://github.com/rvalla/COVID-19/raw/master/Argentina_Data/actual_charts/1_ArgentinaC.png" />
 
 Si usamos la cantidad de *fallecidos* para estimar la *cantidad real* de infectados (tomando una *tasa de mortalidad
 real* del 1% y el tiempo promedio que pasa entre la aparición de los síntomas y la muerte en 11 días) vemos
 que en Argentina la proporción de casos detectados viene mejorando a partir de mediados de mayo.
 
-![Estimación](https://github.com/rvalla/COVID-19/raw/master/Argentina_Data/actual_charts/1_E_00_KnownRatioAndEstimation.png)
+<img class="gray" src="https://github.com/rvalla/COVID-19/raw/master/Argentina_Data/actual_charts/1_E_00_KnownRatioAndEstimation.png" />
