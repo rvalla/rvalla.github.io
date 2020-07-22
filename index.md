@@ -19,7 +19,11 @@ You can know more about who I am [here](https://rvalla.github.io/eng/aboutme_eng
 
 ## projects
 
-<hr class="gray" />
+<hr class="red" />
+<hr class="yellow" />
+<hr class="blue" />
+<p></p>
+
 ### COVID-19
 The year 2020 highlights once again the fragility of human life and its social organization. But in a time
 when we have access to a lot of data almost instantly. In part as excuse to start programming in
@@ -30,11 +34,15 @@ evolution of the epidemic around the world and especially in Argentina...
 
 ## algorithmic Blog
 
+<hr class="red" />
+<hr class="yellow" />
+<hr class="blue" />
+<p></p>
+
 A blog where I write mostly about things related to the projects I share here, without much care. I will
 intend to write brief posts although is possible I can not always acomplish that. I'm going to try to group
 the posts into four categories. Here is the [rss feed](https://rvalla.github.io/feed_eng.xml).
 
-<hr class="gray" />
 ### categories:
 
 - reality
