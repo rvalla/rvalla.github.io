@@ -20,6 +20,7 @@ por [mail](mailto:rodrigovalla@protonmail.ch) o encontrarme en [telegram](https:
 
 ## proyectos
 
+<hr class="gray" />
 ### COVID-19
 El año 2020 vuelve a poner en evidencia la fragilidad de la vida humana y su organización social. Pero lo
 hace en un tiempo en el que tenemos acceso a montones de datos de manera casi instantánea. En parte como
@@ -34,6 +35,7 @@ Un blog en el que escribo sin revisar demasiado cosas relacionadas con los proye
 siempre serán notas breves aunque puedo no cumplir con eso. Voy a intentar que se agrupen en cuatro categorías,
 aunque quizás no lo logre. Acá está el [feed rss](https://rvalla.github.io/feed_es.xml).
 
+<hr class="gray" />
 ### categorías:
 
 - realidad

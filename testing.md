@@ -24,7 +24,7 @@ asdf ñkjs añljks asñfjañlkj aposifj akfñqlkewjfñ kaj spoij fqjwñkfjqñlwk
 asdf ñkjs añljks asñfjañlkj aposifj akfñqlkewjfñ kaj spoij fqjwñkfjqñlwkf ñasdiojfpaisjfñ qkwñfl kjñskdf ñaof
 ñaljkfñakjsf pqiwjpfoqjwfñkljsañlfj psd foqjwñflk ñkasjfp iakfjqñljef 
 
-<img class="red" src="/assets/img/aboutme.jpg" caption="A ver, a ver..." />
+<img class="red" src="/assets/img/aboutme.jpg" />
 
 asdf ñkjs añljks asñfjañlkj aposifj akfñqlkewjfñ kaj spoij fqjwñkfjqñlwkf ñasdiojfpaisjfñ qkwñfl kjñskdf ñaof
 ñaljkfñakjsf pqiwjpfoqjwfñkljsañlfj psd foqjwñflk ñkasjfp iakfjqñljef 
