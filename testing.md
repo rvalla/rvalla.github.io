@@ -10,16 +10,10 @@ asdf ñkjs añljks asñfjañlkj aposifj akfñqlkewjfñ kaj spoij fqjwñkfjqñlwk
 ñaljkfñakjsf pqiwjpfoqjwfñkljsañlfj psd foqjwñflk ñkasjfp iakfjqñljef asdf ñkjs añljks asñfjañlkj aposifj
 akfñqlkewjfñ kaj spoij fqjwñkfjqñlwkf ñasdiojfpaisjfñ qkwñfl kjñskdf ñaof
 ñaljkfñakjsf pqiwjpfoqjwfñkljsañlfj psd foqjwñflk ñkasjfp iakfjqñljef 
-asdf ñkjs añljks asñfjañlkj aposifj akfñqlkewjfñ kaj spoij fqjwñkfjqñlwkf ñasdiojfpaisjfñ qkwñfl kjñskdf ñaof
-ñaljkfñakjsf pqiwjpfoqjwfñkljsañlfj psd foqjwñflk ñkasjfp iakfjqñljef 
-asdf ñkjs añljks asñfjañlkj aposifj akfñqlkewjfñ kaj spoij fqjwñkfjqñlwkf ñasdiojfpaisjfñ qkwñfl kjñskdf ñaof
-ñaljkfñakjsf pqiwjpfoqjwfñkljsañlfj psd foqjwñflk ñkasjfp iakfjqñljef 
-asdf ñkjs añljks asñfjañlkj aposifj akfñqlkewjfñ kaj spoij fqjwñkfjqñlwkf ñasdiojfpaisjfñ qkwñfl kjñskdf ñaof
-ñaljkfñakjsf pqiwjpfoqjwfñkljsañlfj psd foqjwñflk ñkasjfp iakfjqñljef 
-asdf ñkjs añljks asñfjañlkj aposifj akfñqlkewjfñ kaj spoij fqjwñkfjqñlwkf ñasdiojfpaisjfñ qkwñfl kjñskdf ñaof
-ñaljkfñakjsf pqiwjpfoqjwfñkljsañlfj psd foqjwñflk ñkasjfp iakfjqñljef 
 
-<img class="red" src="/assets/img/aboutme.jpg" />
+<hr class="gray" />
+### Hola
+<hr class="gray" />
 
 asdf ñkjs añljks asñfjañlkj aposifj akfñqlkewjfñ kaj spoij fqjwñkfjqñlwkf ñasdiojfpaisjfñ qkwñfl kjñskdf ñaof
 ñaljkfñakjsf pqiwjpfoqjwfñkljsañlfj psd foqjwñflk ñkasjfp iakfjqñljef 
@@ -29,8 +23,26 @@ asdf ñkjs añljks asñfjañlkj aposifj akfñqlkewjfñ kaj spoij fqjwñkfjqñlwk
 ñaljkfñakjsf pqiwjpfoqjwfñkljsañlfj psd foqjwñflk ñkasjfp iakfjqñljef 
 asdf ñkjs añljks asñfjañlkj aposifj akfñqlkewjfñ kaj spoij fqjwñkfjqñlwkf ñasdiojfpaisjfñ qkwñfl kjñskdf ñaof
 ñaljkfñakjsf pqiwjpfoqjwfñkljsañlfj psd foqjwñflk ñkasjfp iakfjqñljef 
+
+<img class="red" src="/assets/img/aboutme.jpg" caption="A ver, a ver..." />
+
 asdf ñkjs añljks asñfjañlkj aposifj akfñqlkewjfñ kaj spoij fqjwñkfjqñlwkf ñasdiojfpaisjfñ qkwñfl kjñskdf ñaof
 ñaljkfñakjsf pqiwjpfoqjwfñkljsañlfj psd foqjwñflk ñkasjfp iakfjqñljef 
+asdf ñkjs añljks asñfjañlkj aposifj akfñqlkewjfñ kaj spoij fqjwñkfjqñlwkf ñasdiojfpaisjfñ qkwñfl kjñskdf ñaof
+ñaljkfñakjsf pqiwjpfoqjwfñkljsañlfj psd foqjwñflk ñkasjfp iakfjqñljef 
+
+#### Hola
+<hr class="gray" />
+
+asdf ñkjs añljks asñfjañlkj aposifj akfñqlkewjfñ kaj spoij fqjwñkfjqñlwkf ñasdiojfpaisjfñ qkwñfl kjñskdf ñaof
+ñaljkfñakjsf pqiwjpfoqjwfñkljsañlfj psd foqjwñflk ñkasjfp iakfjqñljef 
+asdf ñkjs añljks asñfjañlkj aposifj akfñqlkewjfñ kaj spoij fqjwñkfjqñlwkf ñasdiojfpaisjfñ qkwñfl kjñskdf ñaof
+ñaljkfñakjsf pqiwjpfoqjwfñkljsañlfj psd foqjwñflk ñkasjfp iakfjqñljef 
+asdf ñkjs añljks asñfjañlkj aposifj akfñqlkewjfñ kaj spoij fqjwñkfjqñlwkf ñasdiojfpaisjfñ qkwñfl kjñskdf ñaof
+ñaljkfñakjsf pqiwjpfoqjwfñkljsañlfj psd foqjwñflk ñkasjfp iakfjqñljef 
+
+## Hola
+<hr class="gray" />
 
 > "hoy es más difícil saber"
 
@@ -40,6 +52,10 @@ asdf ñkjs añljks asñfjañlkj aposifj akfñqlkewjfñ kaj spoij fqjwñkfjqñlwk
 asdf ñkjs añljks asñfjañlkj aposifj akfñqlkewjfñ kaj spoij fqjwñkfjqñlwkf ñasdiojfpaisjfñ qkwñfl kjñskdf ñaof
 ñaljkfñakjsf pqiwjpfoqjwfñkljsañlfj psd foqjwñflk ñkasjfp iakfjqñljef 
 asdf ñkjs añljks asñfjañlkj aposifj akfñqlkewjfñ kaj spoij fqjwñkfjqñlwkf ñasdiojfpaisjfñ qkwñfl kjñskdf ñaof
+
+### Hola
+<hr class="gray" />
+
 ñaljkfñakjsf pqiwjpfoqjwfñkljsañlfj psd foqjwñflk ñkasjfp iakfjqñljef 
 asdf ñkjs añljks asñfjañlkj aposifj akfñqlkewjfñ kaj spoij fqjwñkfjqñlwkf ñasdiojfpaisjfñ qkwñfl kjñskdf ñaof
 ñaljkfñakjsf pqiwjpfoqjwfñkljsañlfj psd foqjwñflk ñkasjfp iakfjqñljef 
@@ -51,4 +67,4 @@ for a in range(4)
 ```
 
 
-[^1] A ver, a ver...
+[^1]: A ver, a ver...
