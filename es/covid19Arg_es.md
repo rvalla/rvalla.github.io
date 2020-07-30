@@ -14,9 +14,9 @@ El día 21 de marzo se inició un período de aislamiento generalizado de carác
 no se mantuvo fijo y fue sufriendo modificaciones. La situación es distinta según la región del país de la que
 se trate. El aislamiento fue flexibilizándose paulatinamente hasta que entre el 1 y el 17 de julio volvió a
 endurecerse en la Provincia de Buenos Aires y la Ciudad de Buenos Aires.  
-Mirando la evolución de *casos confirmados* podemos ver que la epidemia se comportó de manera *lineal* hasta
-principios de mayo (aunque si miramos atentamente la evolución de los fallecimientos esto no es necesariamente
-cierto). Y volvió a acelerarse a partir de junio.  
+Mirando la evolución de *casos confirmados* podemos ver que la epidemia se comportó de manera más o menos
+*lineal* hasta principios de mayo (aunque si miramos atentamente la evolución de los fallecimientos esto
+no es necesariamente cierto). Y volvió a acelerarse a partir de junio.  
 
 <img class="red" src="https://github.com/rvalla/COVID-19/raw/master/Argentina_Data/actual_charts/1_ArgentinaA.png" />
 
@@ -33,12 +33,15 @@ Aún cuando la *tasa de mortalidad* baja, la *tasa de positividad* sube. Y desde
 del 10%. Incluso el valor acumulado está por encima del 10% a partir de la primer semana de junio.  
 Los *tiempos de duplicación* también se mantuvieron *más o menos* estables a partir de principios de junio (lo que indica un
 crecimiento exponencial de los casos), aunque los correspondientes a los casos confirmados vuelven a crecer
-desde finales de junio.
+desde finales de junio. Los *tiempos de duplicación* para los casos confirmados calculados durante los últimos
+días de julio parecen dar buenas noticias aunque contrastan con los *tiempos de duplicación* de los
+fallecimientos.
 
 <img class="blue" src="https://github.com/rvalla/COVID-19/raw/master/Argentina_Data/actual_charts/1_ArgentinaC.png" />
 
 Si usamos la cantidad de *fallecidos* para estimar la *cantidad real* de infectados (tomando una *tasa de mortalidad
 real* del 1% y el tiempo promedio que pasa entre la aparición de los síntomas y la muerte en 10 días) vemos
-que en Argentina la proporción de casos detectados viene mejorando a partir de mediados de mayo.
+que en Argentina la proporción de casos detectados habría mejorado desde mediados de mayo y se habría estabilizado
+a mediados de julio.
 
 <img class="gray" src="https://github.com/rvalla/COVID-19/raw/master/Argentina_Data/actual_charts/1_E_00_KnownRatioAndEstimation.png" />
