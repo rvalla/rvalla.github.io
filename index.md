@@ -47,5 +47,6 @@ the posts into four categories. Here is the [rss feed](https://rvalla.github.io/
 
 - reality
 - music
-- teaching resources
+- tools
+- teaching
 - data analyisis

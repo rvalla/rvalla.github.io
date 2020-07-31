@@ -48,5 +48,6 @@ aunque quizás no lo logre. Acá está el [feed rss](https://rvalla.github.io/fe
 
 - realidad
 - música
-- herramientas pedagógicas
+- herramientas
+- enseñanza
 - análisis de datos
