@@ -29,8 +29,9 @@ efectivo.
 
 <img class="yellow" src="https://github.com/rvalla/COVID-19/raw/master/Argentina_Data/actual_charts/1_ArgentinaB.png" />
 
-Aún cuando la *tasa de mortalidad* baja, la *tasa de positividad* sube. Y desde mediados de mayo está por encima
-del 10%. Incluso el valor acumulado está por encima del 10% a partir de la primer semana de junio.  
+Aún cuando la *tasa de mortalidad* baja, la *tasa de positividad* (tests positivos / tests totales) sube.
+Y desde mediados de mayo está por encima del 10%. Incluso el valor acumulado está por encima del 10% a partir
+de la primer semana de junio.  
 Los *tiempos de duplicación* también se mantuvieron *más o menos* estables a partir de principios de junio (lo que indica un
 crecimiento exponencial de los casos), aunque los correspondientes a los casos confirmados vuelven a crecer
 desde finales de junio. Los *tiempos de duplicación* para los casos confirmados calculados durante los últimos
