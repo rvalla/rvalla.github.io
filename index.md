@@ -41,7 +41,7 @@ evolution of the epidemic around the world and especially in Argentina...
 
 A [blog](https://rvalla.github.io/eng/blog_eng/) where I write mostly about things related to the projects I share here, without much care. I will
 intend to write brief posts although is possible I can not always acomplish that. I'm going to try to group
-the posts into four categories. Here is the [rss feed](https://rvalla.github.io/feed_eng.xml).
+the posts into five categories. Here is the [rss feed](https://rvalla.github.io/feed_eng.xml).
 
 ### categories:
 

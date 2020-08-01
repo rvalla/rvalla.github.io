@@ -41,7 +41,7 @@ Argentina... [Ir al sitio](https://rvalla.github.io/es/covid19_es/)
 <p></p>
 
 Un [blog](https://rvalla.github.io/es/blog_es/) en el que escribo sin revisar demasiado cosas relacionadas con los proyectos que comparto aquí. Casi
-siempre serán notas breves aunque puedo no cumplir con eso. Voy a intentar que se agrupen en cuatro categorías,
+siempre serán notas breves aunque puedo no cumplir con eso. Voy a intentar que se agrupen en cinco categorías,
 aunque quizás no lo logre. Acá está el [feed rss](https://rvalla.github.io/feed_es.xml).
 
 ### categorías:
