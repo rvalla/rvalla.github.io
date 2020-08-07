@@ -17,11 +17,11 @@ ahora en lugares como China, Korea del Sur o Alemania. Pero todavía no pasó el
 qué tan exitosas son las distintas medidas que estos países están aplicando.  
 
 
-Por eso me propuse programar un modelo. En *Covilandia*, un país imaginario de dos ciudades y 3000 habitantes,
+Por eso me propuse programar un modelo. En **Covilandia**, un país imaginario de dos ciudades y 3000 habitantes,
 un virus que se transmite entre las personas pone en jaque a las autoridades. Para decidir qué medidas tomar,
 realizan un modelo que resulta ser muy parecido a su realidad (porque ya son un modelo). Realizan una gran
 cantidad de simulaciones y finalmente toman su decisión. Veamos qué preguntas se hicieron las autoridades de
-*Covilandia* y qué respuestas arriesgó el modelo.  
+**Covilandia** y qué respuestas arriesgó el modelo.  
 
 
 > Publiqué este artículo el 1º de abril de 2020 en [telegra.ph](https://telegra.ph/Respuestas-desde-el-futuro-04-01).
@@ -38,9 +38,9 @@ viene: una persona curiosa dispuesta a compartir su curiosidad.
 
 ## Datos de partida
 
-*Covilandia*, como decía, es un país imaginario con dos ciudades que sufre un brote epidémico de un virus.
+**Covilandia**, como decía, es un país imaginario con dos ciudades que sufre un brote epidémico de un virus.
 Cuando son infectadas, las personas pasan por un período de incubación de entre 1 y 12 días. Sólo algunos
-de los infectados presentan síntomas, y entre ellos, algunos terminan internados. El gobierno de *Covilandia*
+de los infectados presentan síntomas, y entre ellos, algunos terminan internados. El gobierno de **Covilandia**
 consigue confirmar sólo algunos de los casos. El riesgo de muerte no sólo depende de los pacientes, también
 del porcentaje de la población infectada (es más probable morir cuando el sistema sanitario está exigido).
 Las personas que no tienen síntomas pueden contagiar el virus, pero con menor probabilidad que aquellas que
@@ -52,13 +52,13 @@ contagio es menor si ambas personas son cuidadosas. Las personas tienen contacto
 familiar y también con una lista de contactos definida aleatoriamente (que cambia todos los días).  
 
 
-El gobierno de *Covilandia* puede tomar distintas medidas para controlar la epidemia. Puede cerrar las
+El gobierno de **Covilandia** puede tomar distintas medidas para controlar la epidemia. Puede cerrar las
 ciudades, puede limitar la circulación de personas, puede aislar a aquellas con diagnóstico confirmado
 o recomendar a la población que mantenga distancia. Las medidas se inician a partir de que se confirman
 cierto número de casos y se aplican por una cantidad de días determinada.  
 
 
-Hay algo que es bien distinto en *Covilandia*: la probabilidad de que una persona sana se cruce con un cierto
+Hay algo que es bien distinto en **Covilandia**: la probabilidad de que una persona sana se cruce con un cierto
 sujeto infectado es igual para todas las personas sanas.  
 
 
@@ -70,11 +70,11 @@ lo deja muy claro: [Computational Social networks](https://www.youtube.com/watch
 ## Caso base
 
 Después de correr el modelo con poblaciones de distinto tamaño (500, 1000, 3000, 5000 y 10000 personas) y
-comprobar que se comportaba de manera aceptablemente parecida en todos los casos, decidí usar una *Covilandia*
-habitada por 3000 personas. Las dos ciudades de *Covilandia* tienen aproximadamente el mismo tamaño.  
+comprobar que se comportaba de manera aceptablemente parecida en todos los casos, decidí usar una **Covilandia**
+habitada por 3000 personas. Las dos ciudades de **Covilandia** tienen aproximadamente el mismo tamaño.  
 
 
-En cuanto las autoridades confirman el primer caso de *COBITS-20*, comienzan a correr simulaciones para
+En cuanto las autoridades confirman el primer caso de **COBITS-20**, comienzan a correr simulaciones para
 evaluar qué hacer. Pueden hacer unas cuantas, porque el modelo tarda unos 50 segundos en simular 180 días
 para una población de 3000 personas.  
 
@@ -85,13 +85,13 @@ se recupera, muchos de ellos nunca tienen síntomas.
 
 
 Primero prueban casos extremos, como no hacer nada. El resultado es espeluznante. Como las personas de
-*Covilandia* se mezclan de una manera muy pareja, cuando el brote epidémico termina, un 90% de las personas
+**Covilandia** se mezclan de una manera muy pareja, cuando el brote epidémico termina, un 90% de las personas
 han sido infectadas. En el peor momento del brote, un 30% de la población está infectada al mismo tiempo
 (hay que recordar sin embargo que la mayoría son casos asintomáticos, no necesariamente confirmados por el
-gobierno de *Covilandia*). La tasa de muerte (la cantidad de muertos sobre la cantidad total de infectados)
+gobierno de **Covilandia**). La tasa de muerte (la cantidad de muertos sobre la cantidad total de infectados)
 suele estabilizarse entre el 0,5% y el 2%.  
 
-¿Pero qué pasa cuando el gobierno de *Covilandia* activa sus medidas de contingencia?  
+¿Pero qué pasa cuando el gobierno de **Covilandia** activa sus medidas de contingencia?  
 
 
 ## Medidas contundentes
@@ -105,7 +105,7 @@ población. Y para cuando el brote termina sólo un 10% sufrió el contagio.
 
 Por supuesto, algunas veces, la simulación es un éxito rotundo y el brote se contiene. Esto pasa
 especialmente cuando las medidas son bastante restrictivas y se mantienen durante un plazo considerable.
-Pero como los especialistas de *Covilandia* son precavidos, cuando esto sucede corren nuevas simulaciones y
+Pero como los especialistas de **Covilandia** son precavidos, cuando esto sucede corren nuevas simulaciones y
 se quedan con alguno de los peores casos. Les interesa hacerse una idea del peor escenario.  
 
 
@@ -121,7 +121,7 @@ dicen priorizar la salud de la población como si las medidas de contingencia no
 sobre ella a largo plazo.  
 
 
-Pero las autoridades de *Covilandia* son sensatas. Saben que no existen aspectos de la realidad totalmente
+Pero las autoridades de **Covilandia** son sensatas. Saben que no existen aspectos de la realidad totalmente
 desconectados entre sí y se dan cuenta de que sostener restricciones estrictas durante 4 meses no es posible.
 Tienen que buscar opciones.  
 
@@ -163,7 +163,7 @@ que pueden aplicarse demasiado tarde, pero quizás sea posible hacerlo demasiado
 
 ## ¿Qué hacen las personas?
 
-Los especialistas de *Covilandia* habían logrado confirmar que las personas infectadas podían contagiar aún
+Los especialistas de **Covilandia** habían logrado confirmar que las personas infectadas podían contagiar aún
 sin síntomas aunque era improbable. Por eso se preguntaron qué sucedería si los ciudadanos se aislaran ni
 bien sintieran alguno, por su propia cuenta. Los resultados fueron sorprendentes. Aún cuando no todas las
 personas se auto-aislaran, los cambios eran significativos.  
@@ -185,12 +185,12 @@ El repositorio se llama [SETM](https://github.com/rvalla/SETM/).
 
 ## ¿Qué pasó al final?
 
-Las autoridades de *Covilandia* decidieron luchar contra la epidemia de *COBITS-20* usando distintas
+Las autoridades de **Covilandia** decidieron luchar contra la epidemia de **COBITS-20** usando distintas
 herramientas. Cuando confirmaron 150 casos, restringieron la circulación de las personas sólo un poco
 (un 20%). Les recomendaron mantener distancia pero permitieron que compartieran una mesa al aire libre.
 Realizaron bastantes pruebas de laboratorio (confirmando aproximadamente el 80% de los casos sintomáticos
 y un 20% de los asintomáticos), cosa que les permitió aislar a muchas de las personas infectadas. Por
-supuesto, los habitantes de *Covilandia* hicieron su parte. Alrededor de la mitad de los que tuvieron
+supuesto, los habitantes de **Covilandia** hicieron su parte. Alrededor de la mitad de los que tuvieron
 síntomas se aislaron de inmediato voluntariamente. Como las medidas no eran contundentes, pudieron
 sostenerlas por 56 días sin problemas. Durante el pico del brote, la cantidad de infectados no superó el
 10%, mientras que un 35% por ciento de la población no se infectó nunca.  
@@ -202,7 +202,7 @@ colaboración de todos los ciudadanos, el brote en Covilandia no resultó tan gr
 
 ## Números y simulaciones
 
-Como *Covilandia* es un país imaginado la epidemia de *COBITS-20* no mata, sólo descarta mínimos trozos
+Como **Covilandia** es un país imaginado la epidemia de **COBITS-20** no mata, sólo descarta mínimos trozos
 de memoria en la computadora. La realidad es más dura y compleja. Es muy difícil saber cuándo las
 consecuencias negativas de las medidas de contingencia superan los beneficios que producen.  
 
