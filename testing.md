@@ -24,7 +24,7 @@ asdf ñkjs añljks asñfjañlkj aposifj akfñqlkewjfñ kaj spoij fqjwñkfjqñlwk
 asdf ñkjs añljks asñfjañlkj aposifj akfñqlkewjfñ kaj spoij fqjwñkfjqñlwkf ñasdiojfpaisjfñ qkwñfl kjñskdf ñaof
 ñaljkfñakjsf pqiwjpfoqjwfñkljsañlfj psd foqjwñflk ñkasjfp iakfjqñljef 
 
-<img class="red" src="/assets/img/aboutme.jpg" />
+<img class="red" src="/assets/img/Rdelfuturo_1_es.png" />
 
 asdf ñkjs añljks asñfjañlkj aposifj akfñqlkewjfñ kaj spoij fqjwñkfjqñlwkf ñasdiojfpaisjfñ qkwñfl kjñskdf ñaof
 ñaljkfñakjsf pqiwjpfoqjwfñkljsañlfj psd foqjwñflk ñkasjfp iakfjqñljef 
