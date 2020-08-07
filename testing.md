@@ -44,7 +44,10 @@ asdf ñkjs añljks asñfjañlkj aposifj akfñqlkewjfñ kaj spoij fqjwñkfjqñlwk
 ## Hola
 <hr class="gray" />
 
-> "hoy es más difícil saber"
+> En el mundo real, las sociedades forman redes complejas que tienen nodos más importantes que otros.
+En el caso de una epidemia son críticos los nodos como colegios y universidades. El video de Up and Atom
+lo deja muy claro: [Computational Social networks](https://www.youtube.com/watch?v=uKVQERi83lM).  
+
 
 ñakdjñalkjds fañsdkjfañ lskfja ñskfjañslkf ajs
 asdf ñkjs añljks asñfjañlkj aposifj akfñqlkewjfñ kaj spoij fqjwñkfjqñlwkf ñasdiojfpaisjfñ qkwñfl kjñskdf ñaof
@@ -64,6 +67,7 @@ asdf ñkjs añljks asñfjañlkj aposifj akfñqlkewjfñ kaj spoij fqjwñkfjqñlwk
 u = 0
 for a in range(4)
 	u += a
+	i + 3 + 4 = aVerQuePasa(getRenglónBienLargo(saraza, saraza, saraza), getRenglónBienLargo(saraza, saraza, saraza))
 ```
 
 
