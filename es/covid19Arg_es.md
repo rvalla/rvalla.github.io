@@ -10,8 +10,9 @@ sus [informes diarios](https://www.argentina.gob.ar/coronavirus/informe-diario) 
 
 > Los datos informados en los reportes diarios pueden ser inconsistentes. A veces muestran grandes saltos
 (el 9 de agosto se informaron por ejemplo más de 60.000 altas). Existen demoras notables tanto en la
-notificación de casos confirmados y fallecimientos. El trabajo que hace [Mauro Infantino](https://twitter.com/plenque)
-en [covidstats.com.ar](https://covidstats.com.ar/panorama) complementa cualquier análisis.
+notificación de casos confirmados como la de fallecimientos. El trabajo que hace
+[Mauro Infantino](https://twitter.com/plenque) en [covidstats.com.ar](https://covidstats.com.ar/panorama)
+complementa cualquier análisis.
 
 ## El brote en Argentina
 
