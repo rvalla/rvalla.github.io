@@ -8,6 +8,11 @@ coronavirus *SARS-CoV-2* en la Argentina. En general los actualizo al menos cada
 tardar más (cambia el tiempo del que dispongo y el *Ministerio de Salud de la Nación* no siempre publica
 sus [informes diarios](https://www.argentina.gob.ar/coronavirus/informe-diario) con la misma rapidez).
 
+> Los datos informados en los reportes diarios pueden ser inconsistentes. A veces muestran grandes saltos
+(el 9 de agosto se informaron por ejemplo más de 60.000 altas). Existen demoras notables tanto en la
+notificación de casos confirmados y fallecimientos. El trabajo que hace [Mauro Infantino](https://twitter.com/plenque)
+en [covidstats.com.ar](https://covidstats.com.ar/panorama) complementa cualquier análisis.
+
 ## El brote en Argentina
 
 El día 21 de marzo se inició un período de aislamiento generalizado de carácter obligatorio en el país, aunque
@@ -25,7 +30,7 @@ no se mantuvieron constantes sino que fueron creciendo muy lentamente desde fine
 una aceleración clara a partir de mediados de mayo.  
 La *tasa de mortalidad* empieza a bajar a partir de ese momento (lo más probable es que se deba sobre todo
 a la mejora de la *tasa de detección* y no a un debilitamiento del virus o a la aplicación de un tratamiento
-efectivo) y se estabiliza en julio cerca del 3.5%.  
+efectivo) y se estabiliza en julio cerca del 1.8%.  
 
 <img class="yellow" src="https://github.com/rvalla/COVID-19/raw/master/Argentina_Data/actual_charts/1_ArgentinaB.png" />
 
