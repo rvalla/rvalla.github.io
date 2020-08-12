@@ -55,4 +55,19 @@ real* del 1% y un tiempo promedio entre la aparición de los síntomas y la muer
 que en Argentina la proporción de casos detectados habría mejorado desde mediados de mayo y se habría estabilizado
 a mediados de julio tanto en Buenos Aires como en la Capital Federal.
 
-<img class="gray" src="https://github.com/rvalla/COVID-19/raw/master/Argentina_Data/actual_charts/1_E_00_KnownRatioAndEstimation.png" />
+<img class="gray" src="https://github.com/rvalla/COVID-19/raw/master/Argentina_Data/actual_charts/estimations/1_E_00_KnownRatioAndEstimation.png" />
+
+
+## El interior del país
+
+Hasta hace no mucho tiempo los gráficos de la evolución de la epidemia en Argentina reflejaban lo que
+pasaba sobre todo en la Ciudad de Buenos Aires y el conurbano de la Provincia de Buenos Aires. La región del
+*AMBA* (**Á**rea **M**etropolitana de **B**uenos **A**ires) concentraba casi la totalidad de los *casos
+confirmados* y *fallecimientos*.  
+Lamentablemente eso está cambiando. A partir de mediados de julio se observa una aceleración del crecimiento
+de los casos confirmados en varias provincias del país. Alineando los datos tomando como punto de partida
+el día en que cada distrito alcanzó los 10 fallecidos podemos ver que Jujuy y Santa Fe están creciendo
+muy rápido. Por supuesto hay que contrastar estos datos con los datos de las *Pruebas de laboratorio* que
+realiza cada jurisdicción.
+
+<img class="red" src="https://github.com/rvalla/COVID-19/raw/master/Argentina_Data/actual_charts/interesting/1_O_00_Confirmed_02_Deaths_Interior.png" />
