@@ -62,7 +62,7 @@ a mediados de julio tanto en Buenos Aires como en la Capital Federal.
 
 Hasta hace no mucho tiempo los gráficos de la evolución de la epidemia en Argentina reflejaban lo que
 pasaba sobre todo en la Ciudad de Buenos Aires y el conurbano de la Provincia de Buenos Aires. La región del
-*AMBA* (**Á**rea **M**etropolitana de **B**uenos **A**ires) concentraba casi la totalidad de los *casos
+Área Metropolitana de Buenos Aires (AMBA) concentraba casi la totalidad de los *casos
 confirmados* y *fallecimientos*.  
 Lamentablemente eso está cambiando. A partir de mediados de julio se observa una aceleración del crecimiento
 de los casos confirmados en varias provincias del país. Alineando los datos tomando como punto de partida
