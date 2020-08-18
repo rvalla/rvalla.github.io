@@ -23,12 +23,15 @@ endurecerse en la Provincia de Buenos Aires y la Ciudad de Buenos Aires.
 Mirando la evolución de *casos confirmados* podemos ver que la epidemia se comportó de manera más o menos
 *lineal* hasta principios de mayo (aunque si miramos atentamente la evolución de los fallecimientos esto
 no es necesariamente cierto). Y volvió a acelerarse a partir de junio.  
+Es posible que haya habido un cambio de tendencia a partir del 10 de agosto cuando los *casos confirmados*
+parecen estabilizarse.  
 
 <img class="red" src="https://github.com/rvalla/COVID-19/raw/master/Argentina_Data/actual_charts/1_ArgentinaA.png" />
 
 Si miramos con atención los *fallecimientos diarios* tomando promedios para 7 días podemos ver que, en realidad,
 no se mantuvieron constantes sino que fueron creciendo muy lentamente desde fines de marzo. Se observa
-una aceleración clara a partir de mediados de mayo.  
+una aceleración clara a partir de mediados de mayo que parece estabilizarse recién a mediados de agosto (aunque
+hay que esperar unos días para confirmarlo).  
 La *tasa de mortalidad* empieza a bajar a partir de ese momento (lo más probable es que se deba sobre todo
 a la mejora de la *tasa de detección* y no a un debilitamiento del virus o a la aplicación de un tratamiento
 efectivo) y se estabiliza en julio cerca del 1.8%.  
@@ -41,12 +44,12 @@ de la primer semana de junio. El 6 de agosto el Ministerio de Salud de la Nació
 [definición de caso confirmado](https://www.argentina.gob.ar/salud/coronavirus-COVID-19/definicion-de-caso)
 (ya no se requiere PCR para contactos estrechos de *casos confirmados* que sean *casos sospechosos*). Una
 medida aceptable que parece originarse en la alta *tasa de positividad*, aunque quizás debiera haberse tomado
-antes.  
+antes. A partir de ese día se observa una abrupta caída de la *tasa de positividad*.  
 Los *tiempos de duplicación* también se mantuvieron *más o menos* estables a partir de principios de junio
 (lo que indica un crecimiento exponencial de los casos), aunque los correspondientes a los casos confirmados
 vuelven a crecer desde finales de junio. Los *tiempos de duplicación* para los casos confirmados calculados
 durante los últimos días de julio parecen dar buenas noticias aunque contrastan con los *tiempos de duplicación*
-de los fallecimientos, que no muestran una tendencia clara.
+de los fallecimientos, que no dan buenas noticias recién a partir del 10 de agosto.  
 
 <img class="blue" src="https://github.com/rvalla/COVID-19/raw/master/Argentina_Data/actual_charts/1_ArgentinaC.png" />
 
