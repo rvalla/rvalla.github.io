@@ -61,7 +61,7 @@ que en Argentina la proporción de casos detectados habría mejorado desde media
 a mediados de julio tanto en Buenos Aires como en la Capital Federal. En los últimos días de agosto se observa
 un posible cambio de tendencia.  
 
-<img class="gray" src="https://github.com/rvalla/COVID-19/raw/master/Argentina_Data/actual_charts/estimations/1_E_00_KnownRatioAndEstimation.png" />
+<img class="gray" src="https://github.com/rvalla/COVID-19/raw/master/Argentina_Data/actual_charts/estimations/1_E_00_KnownRatioAndEstimation7dAv.png" />
 
 
 ## El interior del país
