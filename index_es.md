@@ -25,6 +25,14 @@ por [mail](mailto:rodrigovalla@protonmail.ch) o encontrarme en [telegram](https:
 <hr class="blue" />
 <p></p>
 
+### SETM
+Me propuse diseñar dos modelos sencillos para simular no solamente la transmisión de una enfermedad infecciosa
+sino también el efecto que producen las distintas medidas de contingencia que puede tomar un gobierno y los
+cambios en la conducta social. El proyecto se llama **SETM** (**S**imple **E**pidemic **T**ransmission
+**M**odels). Como quería estudiar tanto enfermedades transmitidas de *humano a humano* como *humano a vector
+a humano* habrá dos modelos distintos. Uno inspirado en *COVID-19* y el otro en el *Dengue*... 
+[Ir a SETM](https://rvalla.github.io/SETM/index_es).  
+
 ### COVID-19
 El año 2020 vuelve a poner en evidencia la fragilidad de la vida humana y su organización social. Pero lo
 hace en un tiempo en el que tenemos acceso a montones de datos de manera casi instantánea. En parte como

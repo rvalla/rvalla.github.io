@@ -24,6 +24,13 @@ You can know more about who I am [here](https://rvalla.github.io/eng/aboutme_eng
 <hr class="blue" />
 <p></p>
 
+### SETM
+I propose myself to code two simple computational models to simulate not only the spread of some disease but
+the effect of government contingency measures and social behavioral changes. I named the project **SETM**
+(**S**imple **E**pidemic **T**ransmission **M**odels). As I wanted to learn about the spread of viruses both
+transmitted *human to human* and *human to vector to human* there will be two models. One inspired in
+*COVID-19* and other in *Dengue fever*... [Go to SETM](https://rvalla.github.io/SETM).  
+
 ### COVID-19
 The year 2020 highlights once again the fragility of human life and its social organization. But in a time
 when we have access to a lot of data almost instantly. In part as excuse to start programming in
