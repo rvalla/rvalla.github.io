@@ -1,8 +1,8 @@
 ---
 layout: post_es
-title:  COVID-19 en Argentina (septiembre 2020)
+title:  COVID-19 en Argentina (09/2020)
 category: reality
-tags: spanish covid-19 visualization data
+tags: spanish covid19 visualization data
 ---
 El comportamiento de una epidemia es muy dinámico, más aún cuando interactúa con las distintas medidas de
 contingencia que toman las autoridades o la respuesta de la sociedad. Originalmente mantenía este texto
