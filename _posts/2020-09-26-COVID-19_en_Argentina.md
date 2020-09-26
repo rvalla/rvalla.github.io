@@ -101,7 +101,7 @@ cuando uno ve lo que lograron países como Uruguay o Australia resulta un rotund
 Paraguay también da la sensación de haber logrado hacer girar la curva aunque hay que dejar pasar unos días
 para confirmarlo (ver [acá](/assets/img/20200926_COVID_06.jpg))).
 
-> Ayer, en una conferencia de prensa, la Provincia de Buenos Aires reconoció más de 3500 fallecimiento nuevos
+> Ayer, en una conferencia de prensa, la Provincia de Buenos Aires reconoció más de 3500 fallecimientos nuevos
 que descartan completamente la posibilidad de que la curva haya estado estable durante septiembre.
 
 <img class="red" src="/assets/img/20200926_COVID_06.jpg" />
