@@ -3,27 +3,18 @@ let startTime;
 let state;
 let size;
 let level;
+let wait;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
   size = getSize();
   background(200);
-  state = 0;
-  comp = new p5.Compressor();
-  //env = new p5.Envelope(1, 0, 1, 0);
-    //this.sf = new p5.SoundFile();
-  //  this.mic = new p5.AudioIn();
-    //this.mic.start();
-    //this.rec = new p5.SoundRecorder();
-    //this.rec.setInput(this.mic);
-  // create an audio in
-  mic = new p5.AudioIn();
-  mic.start();
-  //comp.connect(mic);
-  recorder = new p5.SoundRecorder();
-  recorder.setInput(mic);
+  state = -1;
+  wait = 0;
+
   soundFile = new p5.SoundFile();
   //env.connect(soundFile);
+  print("version: 0.55");
 }
 
 function draw() {
@@ -33,14 +24,32 @@ function draw() {
   strokeWeight(3);
   noFill();
   ellipse(width/2, height/2, size, size);
-  level = mic.getLevel();
-  fill(getColor(level));
-  noStroke();
-  ellipse(width/2, height/2, level * size, level * size);
+  if (state > -1) {
+    level = mic.getLevel();
+    fill(getColor(level));
+    noStroke();
+    ellipse(width/2, height/2, level * size, level * size);
+  }
 }
 
 function mousePressed() {
-  if (state === 0 && mic.enabled) {
+  if (state === -1) {
+    comp = new p5.Compressor();
+    //env = new p5.Envelope(1, 0, 1, 0);
+      //this.sf = new p5.SoundFile();
+    //  this.mic = new p5.AudioIn();
+      //this.mic.start();
+      //this.rec = new p5.SoundRecorder();
+      //this.rec.setInput(this.mic);
+    // create an audio in
+    mic = new p5.AudioIn();
+
+    //comp.connect(mic);
+    recorder = new p5.SoundRecorder();
+    mic.start();
+    recorder.setInput(mic);
+    state = 0;
+  } else if (state === 0 && mic.enabled) {
     state = 1;
     recorder.record(soundFile);
     startTime = millis();
@@ -48,12 +57,18 @@ function mousePressed() {
 }
 
 function checkState() {
-  if (millis() > startTime + 3000 && state === 1) {
+  if (millis() > startTime + 2000 && state === 1) {
     recorder.stop();
     state = 2;
-  } else if (millis() > startTime + 4000 && state === 2) {
-    save(soundFile, "a.wav");
-    state = 0;
+  } else if (millis() > startTime + wait && state === 2) {
+    try {
+      save(soundFile, "test.wav");
+      print("saving audio...");
+      state = 0;
+    } catch {
+      print("can't save audio...");
+      wait += 250;
+    }
   }
 }
 
