@@ -16,7 +16,7 @@ function setup() {
   error = "0";
   nerror = 0;
   textFont("Trebuchet", 20);
-  print("version: 0.55");
+  print("version: 0.57");
 }
 
 function draw() {
@@ -56,6 +56,7 @@ function mousePressed() {
     mic.start();
     recorder.setInput(mic);
     soundFile = new p5.SoundFile();
+    soundFile.disconnect();
     state = 0;
   } else if (state === 0 && mic.enabled) {
     state = 1;
@@ -67,18 +68,26 @@ function mousePressed() {
 function checkState() {
   if (millis() > startTime + 5000 && state === 1) {
     recorder.stop();
+    soundFile.load();
     state = 2;
   } else if (millis() > startTime + wait && state === 2) {
-    try {
-      save(soundFile, "test.wav");
-      print("saving audio...");
+    if (soundFile.isLoaded()) {
+      fill(255);
+      text(soundFile.duration(), 20, 100);
+      text(soundFile.frames(), 20, 120);
+      noLoop();
       state = 0;
-      error = "0";
-    } catch {
-      print("can't save audio...");
-      wait += 250;
-      error = "can't save";
-      nerror += 1;
+      try {
+        saveSound(soundFile, "test.wav");
+        print("saving audio...");
+        state = 0;
+        error = "0";
+      } catch {
+        print("can't save audio...");
+        wait += 250;
+        error = "can't save";
+        nerror += 1;
+      }
     }
   }
 }
