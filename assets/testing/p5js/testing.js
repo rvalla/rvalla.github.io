@@ -12,7 +12,7 @@ function setup() {
   state = -1;
   wait = 0;
 
-  soundFile = new p5.SoundFile();
+
   //env.connect(soundFile);
   print("version: 0.55");
 }
@@ -48,6 +48,7 @@ function mousePressed() {
     recorder = new p5.SoundRecorder();
     mic.start();
     recorder.setInput(mic);
+    soundFile = new p5.SoundFile();
     state = 0;
   } else if (state === 0 && mic.enabled) {
     state = 1;
