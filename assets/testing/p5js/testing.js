@@ -4,6 +4,7 @@ let state;
 let size;
 let level;
 let wait;
+let error;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
@@ -11,15 +12,18 @@ function setup() {
   background(200);
   state = -1;
   wait = 0;
-
-
-  //env.connect(soundFile);
+  error = "0";
+  textFont("Trebuchet", 20);
   print("version: 0.55");
 }
 
 function draw() {
-  background(0, 10);
+  background(0);
   checkState();
+  fill(255);
+  text("state: " + state, 20, 20);
+  text("time: " + round(millis()), 20, 40);
+  text("error: " + error, 20, 60);
   stroke(200,100,100);
   strokeWeight(3);
   noFill();
@@ -58,7 +62,7 @@ function mousePressed() {
 }
 
 function checkState() {
-  if (millis() > startTime + 2000 && state === 1) {
+  if (millis() > startTime + 5000 && state === 1) {
     recorder.stop();
     state = 2;
   } else if (millis() > startTime + wait && state === 2) {
@@ -66,9 +70,11 @@ function checkState() {
       save(soundFile, "test.wav");
       print("saving audio...");
       state = 0;
+      error = "0";
     } catch {
       print("can't save audio...");
       wait += 250;
+      error = "can't save";
     }
   }
 }
