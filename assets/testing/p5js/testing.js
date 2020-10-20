@@ -5,14 +5,16 @@ let size;
 let level;
 let wait;
 let error;
+let nerror;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
   size = getSize();
   background(200);
   state = -1;
-  wait = 0;
+  wait = 250;
   error = "0";
+  nerror = 0;
   textFont("Trebuchet", 20);
   print("version: 0.55");
 }
@@ -24,6 +26,7 @@ function draw() {
   text("state: " + state, 20, 20);
   text("time: " + round(millis()), 20, 40);
   text("error: " + error, 20, 60);
+  text("error nº: " + nerror, 20, 80);
   stroke(200,100,100);
   strokeWeight(3);
   noFill();
@@ -75,6 +78,7 @@ function checkState() {
       print("can't save audio...");
       wait += 250;
       error = "can't save";
+      nerror += 1;
     }
   }
 }
