@@ -1,70 +1,76 @@
-let x = 0;
-let y = 0;
-let centerX = 0;
-let centerY = 0;
-let speedX = 0;
-let speedY = 0;
-let accelerationX = 1.05;
-let accelerationY = 1.005;
+let mic, recorder, soundFile, env, comp;
+let startTime;
+let state;
+let size;
+let level;
+
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  x = random(width/3) + width / 5;
-  y = random(height/2) + height / 5;
-  centerX = random(10) + width/2 - 5;
-  centerY = random(10) + height/2 - 5;
+  size = getSize();
+  background(200);
+  state = 0;
+  comp = new p5.Compressor();
+  //env = new p5.Envelope(1, 0, 1, 0);
+    //this.sf = new p5.SoundFile();
+  //  this.mic = new p5.AudioIn();
+    //this.mic.start();
+    //this.rec = new p5.SoundRecorder();
+    //this.rec.setInput(this.mic);
+  // create an audio in
+  mic = new p5.AudioIn();
+  mic.start();
+  //comp.connect(mic);
+  recorder = new p5.SoundRecorder();
+  recorder.setInput(mic);
+  soundFile = new p5.SoundFile();
+  //env.connect(soundFile);
 }
 
 function draw() {
   background(0, 10);
+  checkState();
+  stroke(200,100,100);
+  strokeWeight(3);
+  noFill();
+  ellipse(width/2, height/2, size, size);
+  level = mic.getLevel();
+  fill(getColor(level));
   noStroke();
-  fill(255);
-  ellipse(x, y, 15, 15);
-  updateXY();
+  ellipse(width/2, height/2, level * size, level * size);
 }
 
-function updateXY(){
-  x += getSpeedX();
-  y += getSpeedY();
-  checkDirectionX();
-  checkDirectionY();
-}
-
-function getSpeedX(){
-  return speedX  = speedX + accelerationX / 2;
-}
-
-function getSpeedY(){
-  return speedY  = speedY + accelerationY / 2;
-}
-
-function checkDirectionX(){
-  if (x - (centerX + 10) < 0){
-    accelerationX = 1.05;
-  } else if (x - (centerX + 10) > 0){
-    accelerationX = -1.05;
+function mousePressed() {
+  if (state === 0 && mic.enabled) {
+    state = 1;
+    recorder.record(soundFile);
+    startTime = millis();
   }
 }
 
-function checkDirectionY(){
-  if (y - centerY < 0){
-    accelerationY = 1.005;
-  } else if (y - centerY > 0){
-    accelerationY = -1.005;
+function checkState() {
+  if (millis() > startTime + 3000 && state === 1) {
+    recorder.stop();
+    state = 2;
+  } else if (millis() > startTime + 4000 && state === 2) {
+    save(soundFile, "a.wav");
+    state = 0;
   }
 }
 
-function mouseClicked() {
-  x = random(width/3) + width / 5;
-  y = random(height/2) + height / 5;
-  speedX = 0;
-  speedY = 0;
-  centerX = random(10) + width/2 - 5;
-  centerY = random(10) + height/2 - 5;
+function getSize() {
+  if (width < height) {
+    return width / 2;
+  } else {
+    return height / 2;
+  }
 }
 
-function keyPressed() {
-  if (key = 'c'){
-    centerX = random(100) + width/2 - 5;
-    centerY = random(100) + height/2 - 5;
+function getColor(l) {
+  if (l < 0.3) {
+    return color(60,140, 220);
+  } else if (l >= 0.3 && l < 0.6) {
+    return color(210, 210, 80);
+  } else {
+    return color(200,77,74);
   }
 }
