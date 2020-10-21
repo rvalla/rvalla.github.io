@@ -62,6 +62,7 @@ function mousePressed() {
     state = 1;
     recorder.record(soundFile);
     startTime = millis();
+    saveCanvas("test", "jpg");
   }
 }
 
@@ -77,17 +78,17 @@ function checkState() {
       text(soundFile.frames(), 20, 120);
       noLoop();
       state = 0;
-      try {
-        saveSound(soundFile, "test.wav");
-        print("saving audio...");
-        state = 0;
-        error = "0";
-      } catch {
-        print("can't save audio...");
-        wait += 250;
-        error = "can't save";
-        nerror += 1;
-      }
+    }
+    try {
+      saveSound(soundFile, "test.wav");
+      print("saving audio...");
+      state = 0;
+      error = "0";
+    } catch {
+      print("can't save audio...");
+      wait += 250;
+      error = "can't save";
+      nerror += 1;
     }
   }
 }
