@@ -16,7 +16,7 @@ function setup() {
   error = "0";
   nerror = 0;
   textFont("Trebuchet", 20);
-  print("version: 0.57");
+  print("version: 0.58");
 }
 
 function draw() {
@@ -33,6 +33,10 @@ function draw() {
   ellipse(width/2, height/2, size, size);
   if (state > -1) {
     level = mic.getLevel();
+    fill(255);
+    text("AudioIn: " + mic.stream, 20, 100);
+    text("AudioIn: " + mic.mediaStream, 20, 120);
+    print(mic.getLevel());
     fill(getColor(level));
     noStroke();
     ellipse(width/2, height/2, level * size, level * size);
@@ -51,10 +55,9 @@ function mousePressed() {
     soundFile.setVolume(1, 1);
     state = 0;
   } else if (state === 0 && mic.enabled) {
-    state = 1;
     recorder.record(soundFile);
     startTime = millis();
-    saveCanvas("test", "jpg");
+    state = 1;
   }
 }
 
@@ -66,8 +69,8 @@ function checkState() {
   } else if (millis() > startTime + wait && state === 2) {
     if (soundFile.isLoaded()) {
       fill(255);
-      text(soundFile.duration(), 20, 100);
-      text(soundFile.frames(), 20, 120);
+      text(soundFile.duration(), 20, 140);
+      text(soundFile.frames(), 20, 160);
       noLoop();
       state = 0;
     }
