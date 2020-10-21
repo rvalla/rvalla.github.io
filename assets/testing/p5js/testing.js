@@ -42,21 +42,13 @@ function draw() {
 function mousePressed() {
   if (state === -1) {
     comp = new p5.Compressor();
-    //env = new p5.Envelope(1, 0, 1, 0);
-      //this.sf = new p5.SoundFile();
-    //  this.mic = new p5.AudioIn();
-      //this.mic.start();
-      //this.rec = new p5.SoundRecorder();
-      //this.rec.setInput(this.mic);
-    // create an audio in
     mic = new p5.AudioIn();
-
-    //comp.connect(mic);
+    comp.connect(mic);
     recorder = new p5.SoundRecorder();
     mic.start();
     recorder.setInput(mic);
     soundFile = new p5.SoundFile();
-    soundFile.disconnect();
+    soundFile.setVolume(1, 1);
     state = 0;
   } else if (state === 0 && mic.enabled) {
     state = 1;
