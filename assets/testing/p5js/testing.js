@@ -36,7 +36,6 @@ function draw() {
     fill(255);
     text("AudioIn: " + mic.stream, 20, 100);
     text("AudioIn: " + mic.mediaStream, 20, 120);
-    print(mic.getLevel());
     fill(getColor(level));
     noStroke();
     ellipse(width/2, height/2, level * size, level * size);
@@ -50,6 +49,7 @@ function mousePressed() {
     comp.connect(mic);
     recorder = new p5.SoundRecorder();
     mic.start();
+    mic.amp(0.5);
     recorder.setInput(mic);
     soundFile = new p5.SoundFile();
     soundFile.setVolume(1, 1);
