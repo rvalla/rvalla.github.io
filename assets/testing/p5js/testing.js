@@ -1,4 +1,4 @@
-let mic, recorder, soundFile, env, comp;
+let mic, recorder, soundFile, env, comp, rev;
 let startTime;
 let state;
 let size;
@@ -7,54 +7,54 @@ let wait;
 let error;
 let nerror;
 let b;
+let inputL;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
   getAudioContext().suspend();
   size = getSize();
   background(200);
-  state = -2;
+  inputL = new inputLevel(5);
+  state = -1;
   wait = 250;
   error = "0";
   nerror = 0;
   textFont("Trebuchet", 20);
-  b = createButton("saraza");
-  b.position(19, 19);
-  b.mousePressed(userStartAudio);
-  print("version: 0.59.1");
+  print("version: 0.59.3");
 }
 
 function draw() {
-  background(0);
+  background(0, 15);
   checkState();
   fill(255);
+  noStroke();
   text("state: " + state, 20, 20);
   text("time: " + round(millis()), 20, 40);
   text("error: " + error, 20, 60);
   text("error nº: " + nerror, 20, 80);
   stroke(200,100,100);
-  strokeWeight(3);
-  noFill();
-  ellipse(width/2, height/2, size, size);
   if (state > -1) {
     level = mic.getLevel();
     fill(255);
+    noStroke();
     text("AudioIn: " + mic.stream, 20, 100);
     text("AudioIn: " + mic.mediaStream, 20, 120);
-    fill(getColor(level));
-    noStroke();
-    ellipse(width/2, height/2, level * size, level * size);
+    text("Mic level: " + level, 20, 140);
+    inputL.update(level);
+    inputL.display();
   }
 }
 
-var mousePressed = touchStarted = function() {
-  if (state === -2) {
+function mousePressed() {
+  if (state === -1) {
     userStartAudio();
-    state = -1;
-  } else if (state === -1) {
     comp = new p5.Compressor();
+    comp.set(0.003, 30, 12, -24, 0.25);
+    rev = new p5.Reverb();
+    rev.drywet(0.5);
     mic = new p5.AudioIn();
     comp.connect(mic);
+    rev.connect(mic);
     recorder = new p5.SoundRecorder();
     mic.start();
     mic.amp(0.5);
@@ -67,7 +67,6 @@ var mousePressed = touchStarted = function() {
     startTime = millis();
     state = 1;
   }
-  return false;
 }
 
 function checkState() {
@@ -78,8 +77,9 @@ function checkState() {
   } else if (millis() > startTime + wait && state === 2) {
     if (soundFile.isLoaded()) {
       fill(255);
-      text(soundFile.duration(), 20, 140);
-      text(soundFile.frames(), 20, 160);
+      noStroke();
+      text(soundFile.duration(), 20, 160);
+      text(soundFile.frames(), 20, 180);
       noLoop();
       state = 0;
     }
@@ -96,6 +96,7 @@ function checkState() {
     }
   }
 }
+
 
 function getSize() {
   if (width < height) {
