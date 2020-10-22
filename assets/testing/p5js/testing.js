@@ -6,17 +6,22 @@ let level;
 let wait;
 let error;
 let nerror;
+let b;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
+  getAudioContext().suspend();
   size = getSize();
   background(200);
-  state = -1;
+  state = -2;
   wait = 250;
   error = "0";
   nerror = 0;
   textFont("Trebuchet", 20);
-  print("version: 0.58");
+  b = createButton("saraza");
+  b.position(19, 19);
+  b.mousePressed(userStartAudio);
+  print("version: 0.59.1");
 }
 
 function draw() {
@@ -42,8 +47,11 @@ function draw() {
   }
 }
 
-function mousePressed() {
-  if (state === -1) {
+var mousePressed = touchStarted = function() {
+  if (state === -2) {
+    userStartAudio();
+    state = -1;
+  } else if (state === -1) {
     comp = new p5.Compressor();
     mic = new p5.AudioIn();
     comp.connect(mic);
@@ -59,6 +67,7 @@ function mousePressed() {
     startTime = millis();
     state = 1;
   }
+  return false;
 }
 
 function checkState() {
