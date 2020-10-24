@@ -45,9 +45,9 @@ function doubleClicked() {
   state += 1;
 }*/
 
-function mouseDragged() {
+/*function mouseDragged() {
   drag += 1;
-}
+}*/
 
 /*function touchStarted() {
   if (touches.length > 0) {
