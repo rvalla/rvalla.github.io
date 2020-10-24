@@ -33,23 +33,23 @@ function draw() {
   text("mouseP: " + mp, width / 2, 140);
   text("bP1: " + bp1, width / 2, 160);
   text("bP2: " + bp2, width / 2, 180);
-  text("mouseIsPressed: " + mouseIsPressed, width / 2, 200);
+  text("IsPressed: " + mouseIsPressed, width / 2, 200);
 }
 
-function mouseClicked() {
+/*function mouseClicked() {
   click += 1;
 }
 
 function doubleClicked() {
   doubles += 1;
   state += 1;
-}
+}*/
 
 function mouseDragged() {
   drag += 1;
 }
 
-function touchStarted() {
+/*function touchStarted() {
   if (touches.length > 0) {
     mp += 1;
     if (b1.contains(mouseX, mouseY)) {
@@ -64,10 +64,10 @@ function touchStarted() {
 
 function touchMoved() {
   drag += 1;
-}
+}*/
 
 function mousePressed() {
-  if (mouseIsPressed) {
+  if (event.type != 'touchstart') {
     mp += 1;
     if (b1.contains(mouseX, mouseY)) {
       bp1 += 1;
