@@ -45,9 +45,9 @@ function doubleClicked() {
   state += 1;
 }*/
 
-/*function mouseDragged() {
+function mouseDragged() {
   drag += 1;
-}*/
+}
 
 /*function touchStarted() {
   if (touches.length > 0) {
@@ -66,15 +66,13 @@ function touchMoved() {
   drag += 1;
 }*/
 
-function mousePressed() {
-  if (event.type != 'touchstart') {
-    mp += 1;
-    if (b1.contains(mouseX, mouseY)) {
-      bp1 += 1;
-      state += 1;
-    } else if (b2.contains(mouseX, mouseY)) {
-      bp2 += 1;
-      state += 1;
-    }
+function mouseClicked() {
+  mp += 1;
+  if (b1.contains(mouseX, mouseY)) {
+    bp1 += 1;
+    state += 1;
+  } else if (b2.contains(mouseX, mouseY)) {
+    bp2 += 1;
+    state += 1;
   }
 }
