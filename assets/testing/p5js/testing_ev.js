@@ -77,5 +77,6 @@ function mousePressed() {
   mp += 1;
   if (b1.contains(mouseX, mouseY)) {
     bp += 1;
+    state += 1;
   }
 }
