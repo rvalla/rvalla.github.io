@@ -48,7 +48,7 @@ function mouseDragged() {
   drag += 1;
 }
 
-function touchStarted() {
+/*function touchStarted() {
   if (touches.length === 1) {
     touch += 1;
   } else if (touches.length === 2) {
@@ -59,7 +59,7 @@ function touchStarted() {
 
 function touchMoved() {
   drag += 1;
-}
+}*/
 
 function mousePressed() {
   mp += 1;
