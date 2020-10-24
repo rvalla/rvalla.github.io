@@ -1,5 +1,6 @@
 let mp, bp1, bp2, state, doubles, drag, click, touch;
 let b1, b2;
+let lastclick;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
@@ -10,6 +11,7 @@ function setup() {
   drag = 0;
   click = 0;
   touch = 0;
+  lastclick = 0;
   mp = 0;
   bp1 = 0;
   bp2 = 0;
@@ -66,13 +68,16 @@ function touchMoved() {
   drag += 1;
 }*/
 
-function mouseClicked() {
-  mp += 1;
-  if (b1.contains(mouseX, mouseY)) {
-    bp1 += 1;
-    state += 1;
-  } else if (b2.contains(mouseX, mouseY)) {
-    bp2 += 1;
-    state += 1;
+function mousePressed() {
+  if (500 < millis() - lastclick) {
+    if (b1.contains(mouseX, mouseY)) {
+      bp1 += 1;
+      state += 1;
+    } else if (b2.contains(mouseX, mouseY)) {
+      bp2 += 1;
+      state += 1;
+    }
+    mp += 1;
+    lastclick = millis();
   }
 }
