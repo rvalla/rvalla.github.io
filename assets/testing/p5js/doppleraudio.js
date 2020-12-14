@@ -1,7 +1,6 @@
 class dopplerAudio {
 
   constructor(sf, mf) {
-		userStartAudio();
     this.d = 0;
     this.df = 1;
     this.p1 = createVector(0, 0);
@@ -84,5 +83,13 @@ class dopplerAudio {
   updateNs() {
     this.mns.freq(this.mf * this.df);
   }
+
+	getSinOscillator() {
+		return this.sin;
+	}
+
+	getNoiseOscillator() {
+		return this.ns;
+	}
 
 }
