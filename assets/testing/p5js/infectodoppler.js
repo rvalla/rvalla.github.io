@@ -1,5 +1,4 @@
 let state;
-let sinosc, noiseosc;
 let b1, b2, lastclick;
 let g;
 let da;
@@ -41,21 +40,17 @@ function mousePressed() {
         case -1:
 					userStartAudio();
           da = new dopplerAudio(350, 6);
-					sinosc = da.getSinOscillator();
-					noiseosc = da.getNoiseOscillator();
 					g.play();
 					print(getAudioContext().state);
           state = 0;
           break;
         case 0:
-          //da.play();
-					sinosc.start();
+          da.play();
 					print(getAudioContext().state);
           state = 1;
           break;
         case 1:
-					sinosc.stop();
-          //da.stop();
+          da.stop();
           state = 0;
           break;
       }

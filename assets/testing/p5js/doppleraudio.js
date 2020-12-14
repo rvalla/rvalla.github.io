@@ -84,12 +84,4 @@ class dopplerAudio {
     this.mns.freq(this.mf * this.df);
   }
 
-	getSinOscillator() {
-		return this.sin;
-	}
-
-	getNoiseOscillator() {
-		return this.ns;
-	}
-
 }
