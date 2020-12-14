@@ -1,4 +1,4 @@
-let mic, recorder, soundFile, env, comp, rev;
+let mic, recorder, soundFile, env, comp, rev, sin;
 let startTime;
 let state;
 let size;
@@ -53,6 +53,8 @@ function mousePressed() {
     rev = new p5.Reverb();
     rev.drywet(0.5);
     mic = new p5.AudioIn();
+		sin = new p5.Oscillator("sine");
+		sin.freq(400);
     comp.connect(mic);
     rev.connect(mic);
     recorder = new p5.SoundRecorder();
@@ -64,6 +66,7 @@ function mousePressed() {
     state = 0;
   } else if (state === 0 && mic.enabled) {
     recorder.record(soundFile);
+		sin.start();
     startTime = millis();
     state = 1;
   }
