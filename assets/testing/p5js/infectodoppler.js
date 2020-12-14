@@ -14,6 +14,7 @@ function setup() {
   b2 = new button(2 * width / 3, height / 8, this.getButtonR(), color(20, 60, 220), color(25, 20, 20, 10), "", color(0));
   g = new gravity(1, 1, 25, true);
   print("infectoDoppler: example v.0.95");
+	print(getAudioContext().state);
 }
 
 function draw() {
@@ -28,6 +29,7 @@ function draw() {
       da.updateDopplerFactor(g.stars[0].p, g.asteroids[0].p);
       da.updateOscillator();
       g.display();
+			print(da.sin.freq());
       break;
   }
 }
@@ -39,10 +41,12 @@ function mousePressed() {
         case -1:
           da = new dopplerAudio(350, 6);
 					g.play();
+					print(getAudioContext().state);
           state = 0;
           break;
         case 0:
           da.play();
+					print(getAudioContext().state);
           state = 1;
           break;
         case 1:
