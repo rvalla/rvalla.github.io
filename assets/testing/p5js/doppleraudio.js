@@ -60,10 +60,11 @@ class dopplerAudio {
   }
 
   updateDopplerFactor(p1, p2) {
-    let newd = p5.Vector.mag(p5.Vector.sub(p1, p2));
-    let s = constrain(this.d - newd, -25, 25);
-    this.df = map(s, -25, 25, 0, 2);
-    this.d = newd;
+    //let newd = p5.Vector.mag(p5.Vector.sub(p1, p2));
+    //let s = constrain(this.d - newd, -25, 25);
+    //this.df = map(s, -25, 25, 0, 2);
+    //this.d = newd;
+		this.d = 1;
   }
 
   updateOscillator() {
