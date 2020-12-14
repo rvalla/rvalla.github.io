@@ -18,6 +18,8 @@ class dopplerAudio {
     this.sin.amp(0.6);
     this.mns.amp(0.5);
     this.ns.amp(this.mns);
+		this.sin.connect(getAudioContext().destination);
+		this.ns.connect(getAudioContext().destination);
   }
 
   play() {
