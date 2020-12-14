@@ -34,25 +34,32 @@ function draw() {
 
 function mousePressed() {
   if (500 < millis() - lastclick) {
-    if (b1.contains(mouseX, mouseY)) {
-      switch (state) {
-        case -1:
-          da = new dopplerAudio(350, 6);
+		if (state === -1) {
+			da = new dopplerAudio(350, 6);
+			g.play();
+			state = 0;
+		} else {
+			if (b1.contains(mouseX, mouseY)) {
+	      switch (state) {
+	        case 0:
+	          da.play();
+	          state = 1;
+	          break;
+	        case 1:
+	          da.stop();
+	          state = 0;
+	          break;
+	      }
+	    } else if (b2.contains(mouseX, mouseY)) {
+	      g.asteroids[0].reset();
+	    } else {
+				if (state === -1) {
+	        da = new dopplerAudio(350, 6);
 					g.play();
-          state = 0;
-          break;
-        case 0:
-          da.play();
-          state = 1;
-          break;
-        case 1:
-          da.stop();
-          state = 0;
-          break;
-      }
-    } else if (b2.contains(mouseX, mouseY)) {
-      g.asteroids[0].reset();
-    }
+	        state = 0;
+				}
+			}
+		}
     lastclick = millis();
   }
 }
