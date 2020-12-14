@@ -1,6 +1,7 @@
 class dopplerAudio {
 
   constructor(sf, mf) {
+		userStartAudio();
     this.d = 0;
     this.df = 1;
     this.p1 = createVector(0, 0);

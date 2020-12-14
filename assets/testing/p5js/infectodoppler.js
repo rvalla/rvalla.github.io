@@ -37,7 +37,6 @@ function mousePressed() {
     if (b1.contains(mouseX, mouseY)) {
       switch (state) {
         case -1:
-          userStartAudio();
           da = new dopplerAudio(350, 6);
 					g.play();
           state = 0;
