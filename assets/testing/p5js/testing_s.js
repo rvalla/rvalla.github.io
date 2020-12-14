@@ -52,7 +52,7 @@ function mousePressed() {
     comp.set(0.003, 30, 12, -24, 0.25);
     rev = new p5.Reverb();
     rev.drywet(0.5);
-    //mic = new p5.AudioIn();
+    mic = new p5.AudioIn();
 		sin = new p5.Oscillator("sine");
 		sin.freq(400);
     //comp.connect(mic);
