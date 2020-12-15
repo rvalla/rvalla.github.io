@@ -1,9 +1,13 @@
 let mp, bp1, bp2, state, doubles, drag, click, touch;
 let b1, b2;
 let lastclick;
+var thecanvas;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
+	thecanvas = document.getElementsByTagName("canvas")[0];
+	thecanvas.addEventListener("mouseup", processEv, false);
+	thecanvas.addEventListener("touchend", processEv, false);
   background(25);
   state = 0;
   doubles = 0;
@@ -38,7 +42,13 @@ function draw() {
   text("IsPressed: " + mouseIsPressed, width / 2, 200);
 }
 
-function mouseClicked() {
+function processEv(event) {
+	state += 1;
+	event.preventDefault();
+  return false;
+}
+
+/*function mouseClicked() {
   click += 1;
 	state += 1;
 	if (b1.contains(mouseX, mouseY)) {
@@ -48,7 +58,7 @@ function mouseClicked() {
   }
 	event.preventDefault();
 	return false;
-}
+}*/
 
 /*function doubleClicked() {
   doubles += 1;
