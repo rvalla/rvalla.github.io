@@ -1,7 +1,7 @@
 let sin, noise;
 let state;
 let sound, startTime;
-let thecanvas;
+let thecanvas, button;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
@@ -10,6 +10,9 @@ function setup() {
 	thecanvas.addEventListener("mousedown", processEv, false);
 	thecanvas.addEventListener("touchend", processEv, false);
   background(200);
+	button = createButton("andá de una vez");
+	button.position(width - 200,200);
+	button.mousePressed(saraza);
   state = -1;
 	sound = 0;
 	startTime = 0;
@@ -24,6 +27,12 @@ function draw() {
   text("state: " + state, 20, 20);
   text("time: " + round(millis()), 20, 40);
   stroke(200,100,100);
+}
+
+function saraza(){
+	userStartAudio();
+	print("a ver...");
+	removeElements();
 }
 
 function play() {
@@ -45,8 +54,7 @@ function stop() {
 
 function processEv(event) {
   if (state === -1) {
-		Notification.requestPermission().then(function(permission) { ... });
-    userStartAudio();
+
     sin = new p5.Oscillator("sine");
 		sin.freq(300);
 		sin.amp(0.8);

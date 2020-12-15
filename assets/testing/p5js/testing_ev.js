@@ -7,8 +7,7 @@ let permissions;
 function setup() {
   createCanvas(windowWidth, windowHeight);
 	thecanvas = document.getElementsByTagName("canvas")[0];
-	thecanvas.addEventListener("mousedown", processEv, false);
-	thecanvas.addEventListener("touchstart", processEv, false);
+	thecanvas.addEventListener("click", processEv, false);
 	permissions = [""];
   background(25);
   state = 0;
@@ -45,9 +44,13 @@ function draw() {
 }
 
 function processEv(event) {
-	Notification.requestPermission().then(function(permission) {});
 	state += 1;
 	print(event);
+	if (b1.contains(mouseX, mouseY)) {
+    bp1 += 1;
+  } else if (b2.contains(mouseX, mouseY)) {
+    bp2 += 1;
+  }
 	event.preventDefault();
   return false;
 }
