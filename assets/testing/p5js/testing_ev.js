@@ -6,8 +6,8 @@ let thecanvas;
 function setup() {
   createCanvas(windowWidth, windowHeight);
 	thecanvas = document.getElementsByTagName("canvas")[0];
-	thecanvas.addEventListener("mouseup", processEv, false);
-	thecanvas.addEventListener("touchend", processEv, false);
+	thecanvas.addEventListener("mousedown", processEv, false);
+	thecanvas.addEventListener("touchstart", processEv, false);
   background(25);
   state = 0;
   doubles = 0;
