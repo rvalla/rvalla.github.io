@@ -7,7 +7,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   getAudioContext().suspend();
 	thecanvas = document.getElementsByTagName("canvas")[0];
-	thecanvas.addEventListener("click", processEv, false);
+	thecanvas.addEventListener("mousedown", processEv, false);
 	thecanvas.addEventListener("touchend", processEv, false);
   background(200);
   state = -1;
@@ -45,6 +45,7 @@ function stop() {
 
 function processEv(event) {
   if (state === -1) {
+		Notification.requestPermission().then(function(permission) { ... });
     userStartAudio();
     sin = new p5.Oscillator("sine");
 		sin.freq(300);

@@ -2,12 +2,14 @@ let mp, bp1, bp2, state, doubles, drag, click, touch;
 let b1, b2;
 let lastclick;
 let thecanvas;
+let permissions;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
 	thecanvas = document.getElementsByTagName("canvas")[0];
 	thecanvas.addEventListener("mousedown", processEv, false);
 	thecanvas.addEventListener("touchstart", processEv, false);
+	permissions = [""];
   background(25);
   state = 0;
   doubles = 0;
@@ -43,6 +45,7 @@ function draw() {
 }
 
 function processEv(event) {
+	Notification.requestPermission().then(function(permission) {});
 	state += 1;
 	print(event);
 	event.preventDefault();
