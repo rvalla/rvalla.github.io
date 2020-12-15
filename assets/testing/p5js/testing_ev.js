@@ -44,6 +44,7 @@ function draw() {
 
 function processEv(event) {
 	state += 1;
+	print(event);
 	event.preventDefault();
   return false;
 }
