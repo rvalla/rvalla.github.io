@@ -1,7 +1,7 @@
 let mp, bp1, bp2, state, doubles, drag, click, touch;
 let b1, b2;
 let lastclick;
-var thecanvas;
+let thecanvas;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
