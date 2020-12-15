@@ -38,35 +38,33 @@ function draw() {
   text("IsPressed: " + mouseIsPressed, width / 2, 200);
 }
 
-/*function mouseClicked() {
+function mouseClicked() {
   click += 1;
+	state += 1;
 }
 
-function doubleClicked() {
+/*function doubleClicked() {
   doubles += 1;
   state += 1;
-}*/
+}
 
 function mouseDragged() {
   drag += 1;
-}
+}*/
 
-/*function touchStarted() {
-  if (touches.length > 0) {
-    mp += 1;
-    if (b1.contains(mouseX, mouseY)) {
-      bp1 += 1;
-      state += 1;
-    } else if (b2.contains(mouseX, mouseY)) {
-      bp2 += 1;
-      state += 1;
-    }
+function touchEnded() {
+  touch += 1;
+	state += 1;
+  if (b1.contains(mouseX, mouseY)) {
+    bp1 += 1;
+  } else if (b2.contains(mouseX, mouseY)) {
+    bp2 += 1;
   }
 }
 
-function touchMoved() {
+/*function touchMoved() {
   drag += 1;
-}*/
+}
 
 function mousePressed() {
   if (500 < millis() - lastclick) {
@@ -80,4 +78,4 @@ function mousePressed() {
     mp += 1;
     lastclick = millis();
   }
-}
+}*/

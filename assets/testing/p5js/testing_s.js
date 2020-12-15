@@ -25,7 +25,7 @@ function setup() {
 
 function draw() {
   background(0, 15);
-  //checkState();
+  checkState();
   fill(255);
   noStroke();
   text("state: " + state, 20, 20);
@@ -34,13 +34,13 @@ function draw() {
   text("error nº: " + nerror, 20, 80);
   stroke(200,100,100);
   if (state > -1) {
-    //level = mic.getLevel();
+    level = mic.getLevel();
     fill(255);
     noStroke();
-    //text("AudioIn: " + mic.stream, 20, 100);
-    //text("AudioIn: " + mic.mediaStream, 20, 120);
+    text("AudioIn: " + mic.stream, 20, 100);
+    text("AudioIn: " + mic.mediaStream, 20, 120);
     text("Mic level: " + level, 20, 140);
-    //inputL.update(level);
+    inputL.update(level);
     inputL.display();
   }
 }
@@ -53,20 +53,17 @@ function mousePressed() {
     rev = new p5.Reverb();
     rev.drywet(0.5);
     mic = new p5.AudioIn();
-		sin = new p5.Oscillator("sine");
-		sin.freq(400);
-    //comp.connect(mic);
-    //rev.connect(mic);
-    //recorder = new p5.SoundRecorder();
-    //mic.start();
-    //mic.amp(0.5);
-    //recorder.setInput(mic);
-    //soundFile = new p5.SoundFile();
-    //soundFile.setVolume(1, 1);
+    comp.connect(mic);
+    rev.connect(mic);
+    recorder = new p5.SoundRecorder();
+    mic.start();
+    mic.amp(0.5);
+    recorder.setInput(mic);
+    soundFile = new p5.SoundFile();
+    soundFile.setVolume(1, 1);
     state = 0;
-  } else if (state === 0) { //&& mic.enabled) {
-    //recorder.record(soundFile);
-		sin.start();
+  } else if (state === 0) && mic.enabled) {
+    recorder.record(soundFile);
     startTime = millis();
     state = 1;
   }
