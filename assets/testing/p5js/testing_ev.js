@@ -41,6 +41,13 @@ function draw() {
 function mouseClicked() {
   click += 1;
 	state += 1;
+	if (b1.contains(mouseX, mouseY)) {
+    bp1 += 1;
+  } else if (b2.contains(mouseX, mouseY)) {
+    bp2 += 1;
+  }
+	event.preventDefault();
+	return false;
 }
 
 /*function doubleClicked() {
@@ -52,7 +59,7 @@ function mouseDragged() {
   drag += 1;
 }*/
 
-function touchEnded() {
+/*function touchEnded() {
   touch += 1;
 	state += 1;
   if (b1.contains(mouseX, mouseY)) {
@@ -60,7 +67,9 @@ function touchEnded() {
   } else if (b2.contains(mouseX, mouseY)) {
     bp2 += 1;
   }
-}
+	event.preventDefault();
+	return false;
+}*/
 
 /*function touchMoved() {
   drag += 1;
