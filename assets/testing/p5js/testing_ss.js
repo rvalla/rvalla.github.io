@@ -57,6 +57,8 @@ function processEv() {
 		startTime = millis();
     state = 1;
   }
+	event.preventDefault();
+  return false;
 }
 
 function checkState() {
