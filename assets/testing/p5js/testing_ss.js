@@ -2,10 +2,12 @@ let sin, noise;
 let state;
 let sound, startTime;
 let canvas, thecanvas, checkaudio;
+let isiPhone;
 
 function setup() {
   canvas = createCanvas(windowWidth, windowHeight - 30);
   getAudioContext().suspend();
+	isiPhone = isIphone = window.navigator.userAgent.match(/iPad/i) || window.navigator.userAgent.match(/iphone/i);
 	thecanvas = document.getElementsByTagName("canvas")[0];
 	thecanvas.addEventListener("mousedown", processEv, false);
 	thecanvas.addEventListener("touchend", processEv, false);
@@ -48,15 +50,23 @@ function stop() {
 
 function processEv(event) {
   if (state === -1) {
-		/*userStartAudio();
+		userStartAudio();
+		if (isiPhone) {
+			let a = new p5.AudioIn();
+		}
     sin = new p5.Oscillator("sine");
 		sin.freq(300);
 		sin.amp(0.8);
 		noise = new p5.Noise("brown");
 		noise.amp(0.4);
-    state = 0;*/
+    state = 0;
   } else if (state === 0) {
-    play();
+		if (sound === 0) {
+			sin.start();
+		} else {
+			noise.start();
+		}
+		play();
 		startTime = millis();
     state = 1;
   }
